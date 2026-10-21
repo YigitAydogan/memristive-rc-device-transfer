@@ -1,0 +1,12 @@
+{
+  "title": "What survives a device change in memristive reservoir computing? Code and results",
+  "upload_type": "software",
+  "description": "Simulation code, result tables, calibration parameters, analysis protocols and figure scripts for the manuscript 'What survives a device change in memristive reservoir computing? Readout transfer across device families, device-to-device spread and measurement-calibrated TiOx devices' by Y. Aydoğan and E. Minayi.",
+  "creators": [
+    {"name": "Aydoğan, Yiğit", "affiliation": "Aberystwyth University"},
+    {"name": "Minayi, Elham", "affiliation": "Dogus University"}
+  ],
+  "license": "MIT",
+  "keywords": ["reservoir computing", "memristor", "device variability", "transfer learning", "neuromorphic computing"],
+  "access_right": "open"
+}

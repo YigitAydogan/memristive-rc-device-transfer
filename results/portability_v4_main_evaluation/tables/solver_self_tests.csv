@@ -1,0 +1,8 @@
+test,abs_error
+"DN closed form vs pulse map, V=0.62",1.1313878893470797e-06
+"DN closed form vs pulse map, V=0.7",4.695048168412708e-06
+"DN closed form vs pulse map, V=0.8",3.07437246982456e-05
+"VT exact vs RK4, V=0.5, dt=0.05",4.440892098500626e-16
+"VT exact vs RK4, V=-0.5, dt=0.002",9.853229343548264e-16
+"VT exact vs RK4, V=-0.4, dt=0.01",1.0547118733938987e-15
+"ZH closed form vs iteration, 7 ticks",1.1102230246251565e-16

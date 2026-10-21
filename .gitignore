@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/_engine_scratch/
+data/measured/*
+!data/measured/.gitkeep
+analysis/numbers.json
+analysis/review_numbers.json
+analysis/tables/
+figures/figure_audit.txt

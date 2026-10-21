@@ -1,0 +1,61 @@
+2026-10-20 01:29:50 | ====================================================================================================
+2026-10-20 01:29:50 | MEMRISTIVE RESERVOIR PORTABILITY v3 DIAGNOSTICS | root=/content/drive/MyDrive/memristive_device_generalization/portability_v3_diagnostics | reads v2 from /content/drive/MyDrive/memristive_device_generalization/portability_v2
+2026-10-20 01:29:50 | Drive mounting is intentionally not performed by this script.
+2026-10-20 01:29:50 | Protocol hash 39ef9bd12893
+2026-10-20 01:29:50 | Capacity versus read-noise ablation ...
+2026-10-20 01:30:50 | Memory-function deficit analysis ...
+2026-10-20 01:31:40 | ECG200 seed 11: 0.3 min | moment gap within=0.048 cross=0.260
+2026-10-20 01:31:56 | ECG200 seed 22: 0.3 min | moment gap within=0.022 cross=0.328
+2026-10-20 01:32:14 | ECG200 seed 33: 0.3 min | moment gap within=0.028 cross=0.286
+2026-10-20 01:32:30 | GunPoint seed 11: 0.3 min | moment gap within=0.040 cross=0.280
+2026-10-20 01:32:46 | GunPoint seed 22: 0.3 min | moment gap within=0.017 cross=0.400
+2026-10-20 01:33:05 | GunPoint seed 33: 0.3 min | moment gap within=0.043 cross=0.353
+2026-10-20 01:33:22 | Plane seed 11: 0.3 min | moment gap within=0.033 cross=0.549
+2026-10-20 01:33:40 | Plane seed 22: 0.3 min | moment gap within=0.053 cross=0.561
+2026-10-20 01:33:57 | Plane seed 33: 0.3 min | moment gap within=0.017 cross=0.501
+2026-10-20 01:34:15 | SyntheticControl seed 11: 0.3 min | moment gap within=0.014 cross=0.554
+2026-10-20 01:34:35 | SyntheticControl seed 22: 0.3 min | moment gap within=0.026 cross=0.548
+2026-10-20 01:34:53 | SyntheticControl seed 33: 0.3 min | moment gap within=0.022 cross=0.622
+2026-10-20 01:35:15 | Trace seed 11: 0.4 min | moment gap within=0.026 cross=0.526
+2026-10-20 01:35:35 | Trace seed 22: 0.3 min | moment gap within=0.038 cross=0.497
+2026-10-20 01:35:56 | Trace seed 33: 0.3 min | moment gap within=0.063 cross=0.483
+2026-10-20 01:36:28 | Strawberry seed 11: 0.5 min | moment gap within=0.051 cross=0.407
+2026-10-20 01:36:59 | Strawberry seed 22: 0.5 min | moment gap within=0.026 cross=0.321
+2026-10-20 01:37:31 | Strawberry seed 33: 0.5 min | moment gap within=0.088 cross=0.343
+2026-10-20 01:38:01 | CricketX seed 11: 0.5 min | moment gap within=0.030 cross=0.194
+2026-10-20 01:38:29 | CricketX seed 22: 0.5 min | moment gap within=0.026 cross=0.180
+2026-10-20 01:39:00 | CricketX seed 33: 0.5 min | moment gap within=0.030 cross=0.184
+2026-10-20 01:39:32 | Earthquakes seed 11: 0.5 min | moment gap within=0.024 cross=0.164
+2026-10-20 01:40:05 | Earthquakes seed 22: 0.5 min | moment gap within=0.004 cross=0.174
+2026-10-20 01:40:36 | Earthquakes seed 33: 0.5 min | moment gap within=-0.014 cross=0.175
+2026-10-20 01:41:08 | FaceAll seed 11: 0.5 min | moment gap within=0.025 cross=0.482
+2026-10-20 01:41:39 | FaceAll seed 22: 0.5 min | moment gap within=0.015 cross=0.417
+2026-10-20 01:42:10 | FaceAll seed 33: 0.5 min | moment gap within=0.018 cross=0.467
+2026-10-20 01:42:37 | Symbols seed 11: 0.5 min | moment gap within=0.073 cross=0.445
+2026-10-20 01:43:04 | Symbols seed 22: 0.4 min | moment gap within=0.035 cross=0.483
+2026-10-20 01:43:30 | Symbols seed 33: 0.4 min | moment gap within=0.025 cross=0.396
+2026-10-20 01:44:11 | RefrigerationDevices seed 11: 0.7 min | moment gap within=0.016 cross=0.112
+2026-10-20 01:44:52 | RefrigerationDevices seed 22: 0.7 min | moment gap within=0.008 cross=0.112
+2026-10-20 01:45:33 | RefrigerationDevices seed 33: 0.7 min | moment gap within=0.002 cross=0.078
+2026-10-20 01:46:18 | TwoPatterns seed 11: 0.7 min | moment gap within=0.011 cross=0.214
+2026-10-20 01:47:03 | TwoPatterns seed 22: 0.8 min | moment gap within=0.014 cross=0.192
+2026-10-20 01:47:48 | TwoPatterns seed 33: 0.8 min | moment gap within=0.014 cross=0.142
+2026-10-20 01:48:30 | ECG5000 seed 11: 0.7 min | moment gap within=0.021 cross=0.280
+2026-10-20 01:49:11 | ECG5000 seed 22: 0.7 min | moment gap within=0.016 cross=0.298
+2026-10-20 01:49:52 | ECG5000 seed 33: 0.7 min | moment gap within=0.009 cross=0.288
+2026-10-20 01:50:49 | Wafer seed 11: 0.9 min | moment gap within=0.032 cross=0.447
+2026-10-20 01:51:43 | Wafer seed 22: 0.9 min | moment gap within=0.120 cross=0.405
+2026-10-20 01:52:39 | Wafer seed 33: 0.9 min | moment gap within=0.080 cross=0.549
+2026-10-20 01:53:33 | Yoga seed 11: 0.9 min | moment gap within=0.077 cross=0.325
+2026-10-20 01:54:28 | Yoga seed 22: 0.9 min | moment gap within=0.032 cross=0.363
+2026-10-20 01:55:23 | Yoga seed 33: 0.9 min | moment gap within=0.064 cross=0.388
+2026-10-20 01:56:25 | UWaveGestureLibraryX seed 11: 1.0 min | moment gap within=0.009 cross=0.263
+2026-10-20 01:57:29 | UWaveGestureLibraryX seed 22: 1.1 min | moment gap within=0.002 cross=0.254
+2026-10-20 01:58:32 | UWaveGestureLibraryX seed 33: 1.1 min | moment gap within=0.011 cross=0.280
+2026-10-20 02:00:14 | FordA seed 11: 1.7 min | moment gap within=-0.004 cross=0.035
+2026-10-20 02:01:58 | FordA seed 22: 1.7 min | moment gap within=-0.000 cross=0.039
+2026-10-20 02:03:40 | FordA seed 33: 1.7 min | moment gap within=-0.010 cross=0.017
+2026-10-20 02:08:36 | StarLightCurves seed 11: 4.9 min | moment gap within=0.025 cross=0.424
+2026-10-20 02:13:26 | StarLightCurves seed 22: 4.8 min | moment gap within=0.028 cross=0.386
+2026-10-20 02:18:27 | StarLightCurves seed 33: 5.0 min | moment gap within=0.009 cross=0.510
+2026-10-20 02:23:51 | Done in 54.0 min. Tables: /content/drive/MyDrive/memristive_device_generalization/portability_v3_diagnostics/tables | Figures: /content/drive/MyDrive/memristive_device_generalization/portability_v3_diagnostics/figures

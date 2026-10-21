@@ -1,0 +1,7 @@
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.9
+aeon>=1.0
+openpyxl>=3.1

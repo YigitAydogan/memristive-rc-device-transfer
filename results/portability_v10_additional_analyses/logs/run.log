@@ -1,0 +1,175 @@
+2026-10-20 22:41:39 | ====================================================================================================
+2026-10-20 22:41:39 | MEMRISTIVE RESERVOIR PORTABILITY v10 REVIEWER GAPS | root=/content/drive/MyDrive/memristive_device_generalization/portability_v10_reviewer_gaps | smoke=False | skip_robust=False | skip_pair=False
+2026-10-20 22:41:39 | Drive mounting is intentionally not performed by this script.
+2026-10-20 22:41:40 | Loaded 504 source-selected operating points from the confirmatory run.
+2026-10-20 22:41:40 | Installing aeon ...
+2026-10-20 22:42:50 | Coffee seed 44: 0.4 min | cross gap moment=0.503 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.000
+2026-10-20 22:43:11 | Coffee seed 55: 0.3 min | cross gap moment=0.282 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.000
+2026-10-20 22:43:31 | Coffee seed 66: 0.3 min | cross gap moment=0.287 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.000
+2026-10-20 22:44:04 | ECG200 seed 44: 0.5 min | cross gap moment=0.204 teacher=-0.009 teacher_n32=0.090 teacher_warm_k5=0.017
+2026-10-20 22:44:36 | ECG200 seed 55: 0.5 min | cross gap moment=0.299 teacher=-0.016 teacher_n32=0.101 teacher_warm_k5=0.036
+2026-10-20 22:45:08 | ECG200 seed 66: 0.5 min | cross gap moment=0.262 teacher=0.008 teacher_n32=0.089 teacher_warm_k5=0.127
+2026-10-20 22:45:35 | GunPoint seed 44: 0.5 min | cross gap moment=0.279 teacher=0.000 teacher_n32=0.062 teacher_warm_k5=0.068
+2026-10-20 22:46:04 | GunPoint seed 55: 0.5 min | cross gap moment=0.245 teacher=0.000 teacher_n32=0.069 teacher_warm_k5=0.033
+2026-10-20 22:46:32 | GunPoint seed 66: 0.5 min | cross gap moment=0.270 teacher=0.000 teacher_n32=0.026 teacher_warm_k5=0.015
+2026-10-20 22:47:09 | Plane seed 44: 0.6 min | cross gap moment=0.542 teacher=0.010 teacher_n32=0.094 teacher_warm_k5=0.036
+2026-10-20 22:47:46 | Plane seed 55: 0.6 min | cross gap moment=0.542 teacher=0.000 teacher_n32=0.149 teacher_warm_k5=0.014
+2026-10-20 22:48:23 | Plane seed 66: 0.6 min | cross gap moment=0.539 teacher=0.000 teacher_n32=0.084 teacher_warm_k5=0.003
+2026-10-20 22:49:15 | SyntheticControl seed 44: 0.9 min | cross gap moment=0.570 teacher=0.020 teacher_n32=0.214 teacher_warm_k5=0.084
+2026-10-20 22:50:07 | SyntheticControl seed 55: 0.9 min | cross gap moment=0.596 teacher=0.028 teacher_n32=0.270 teacher_warm_k5=0.072
+2026-10-20 22:50:59 | SyntheticControl seed 66: 0.9 min | cross gap moment=0.524 teacher=0.018 teacher_n32=0.210 teacher_warm_k5=0.084
+2026-10-20 22:51:22 | SonyAIBORobotSurface1 seed 44: 0.4 min | cross gap moment=0.130 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.000
+2026-10-20 22:51:45 | SonyAIBORobotSurface1 seed 55: 0.4 min | cross gap moment=0.091 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.000
+2026-10-20 22:52:08 | SonyAIBORobotSurface1 seed 66: 0.4 min | cross gap moment=0.209 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.000
+2026-10-20 22:52:46 | Lightning7 seed 44: 0.6 min | cross gap moment=0.214 teacher=0.003 teacher_n32=0.069 teacher_warm_k5=0.066
+2026-10-20 22:53:24 | Lightning7 seed 55: 0.6 min | cross gap moment=0.323 teacher=0.043 teacher_n32=0.123 teacher_warm_k5=0.101
+2026-10-20 22:54:02 | Lightning7 seed 66: 0.6 min | cross gap moment=0.312 teacher=0.012 teacher_n32=0.052 teacher_warm_k5=0.042
+2026-10-20 22:54:36 | Meat seed 44: 0.6 min | cross gap moment=0.425 teacher=0.000 teacher_n32=0.087 teacher_warm_k5=0.050
+2026-10-20 22:55:10 | Meat seed 55: 0.6 min | cross gap moment=0.325 teacher=0.000 teacher_n32=0.050 teacher_warm_k5=0.025
+2026-10-20 22:55:42 | Meat seed 66: 0.5 min | cross gap moment=0.275 teacher=0.025 teacher_n32=0.075 teacher_warm_k5=0.025
+2026-10-20 22:56:22 | Trace seed 44: 0.7 min | cross gap moment=0.436 teacher=0.025 teacher_n32=0.177 teacher_warm_k5=0.041
+2026-10-20 22:57:02 | Trace seed 55: 0.7 min | cross gap moment=0.478 teacher=0.019 teacher_n32=0.155 teacher_warm_k5=0.012
+2026-10-20 22:57:44 | Trace seed 66: 0.7 min | cross gap moment=0.380 teacher=0.018 teacher_n32=0.183 teacher_warm_k5=0.041
+2026-10-20 22:58:55 | ProximalPhalanxOutlineCorrect seed 44: 1.2 min | cross gap moment=0.314 teacher=-0.035 teacher_n32=0.086 teacher_warm_k5=0.031
+2026-10-20 23:00:08 | ProximalPhalanxOutlineCorrect seed 55: 1.2 min | cross gap moment=0.336 teacher=-0.018 teacher_n32=0.095 teacher_warm_k5=0.015
+2026-10-20 23:01:23 | ProximalPhalanxOutlineCorrect seed 66: 1.2 min | cross gap moment=0.219 teacher=-0.012 teacher_n32=0.094 teacher_warm_k5=0.043
+2026-10-20 23:02:06 | Ham seed 44: 0.7 min | cross gap moment=0.248 teacher=-0.038 teacher_n32=0.092 teacher_warm_k5=0.015
+2026-10-20 23:02:51 | Ham seed 55: 0.7 min | cross gap moment=0.199 teacher=0.014 teacher_n32=0.084 teacher_warm_k5=0.081
+2026-10-20 23:03:35 | Ham seed 66: 0.7 min | cross gap moment=0.150 teacher=-0.032 teacher_n32=0.084 teacher_warm_k5=0.005
+2026-10-20 23:04:02 | MoteStrain seed 44: 0.5 min | cross gap moment=0.056 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.000
+2026-10-20 23:04:30 | MoteStrain seed 55: 0.5 min | cross gap moment=0.069 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.001
+2026-10-20 23:04:58 | MoteStrain seed 66: 0.5 min | cross gap moment=0.123 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.000
+2026-10-20 23:06:09 | MedicalImages seed 44: 1.2 min | cross gap moment=0.235 teacher=0.040 teacher_n32=0.213 teacher_warm_k5=0.045
+2026-10-20 23:07:17 | MedicalImages seed 55: 1.1 min | cross gap moment=0.234 teacher=0.045 teacher_n32=0.209 teacher_warm_k5=0.096
+2026-10-20 23:08:27 | MedicalImages seed 66: 1.2 min | cross gap moment=0.237 teacher=0.040 teacher_n32=0.232 teacher_warm_k5=0.042
+2026-10-20 23:09:23 | Fish seed 44: 0.9 min | cross gap moment=0.365 teacher=0.017 teacher_n32=0.123 teacher_warm_k5=0.080
+2026-10-20 23:10:20 | Fish seed 55: 0.9 min | cross gap moment=0.304 teacher=0.010 teacher_n32=0.188 teacher_warm_k5=0.073
+2026-10-20 23:11:15 | Fish seed 66: 0.9 min | cross gap moment=0.381 teacher=0.015 teacher_n32=0.167 teacher_warm_k5=0.085
+2026-10-20 23:12:13 | OSULeaf seed 44: 1.0 min | cross gap moment=0.193 teacher=0.033 teacher_n32=0.129 teacher_warm_k5=0.072
+2026-10-20 23:13:10 | OSULeaf seed 55: 0.9 min | cross gap moment=0.138 teacher=0.029 teacher_n32=0.138 teacher_warm_k5=0.105
+2026-10-20 23:14:08 | OSULeaf seed 66: 1.0 min | cross gap moment=0.166 teacher=0.047 teacher_n32=0.145 teacher_warm_k5=0.077
+2026-10-20 23:15:33 | Strawberry seed 44: 1.4 min | cross gap moment=0.349 teacher=0.021 teacher_n32=0.239 teacher_warm_k5=0.094
+2026-10-20 23:16:59 | Strawberry seed 55: 1.4 min | cross gap moment=0.451 teacher=0.073 teacher_n32=0.278 teacher_warm_k5=0.112
+2026-10-20 23:18:24 | Strawberry seed 66: 1.4 min | cross gap moment=0.464 teacher=0.081 teacher_n32=0.226 teacher_warm_k5=0.141
+2026-10-20 23:19:40 | CricketX seed 44: 1.3 min | cross gap moment=0.196 teacher=0.041 teacher_n32=0.159 teacher_warm_k5=0.081
+2026-10-20 23:20:56 | CricketX seed 55: 1.3 min | cross gap moment=0.197 teacher=0.037 teacher_n32=0.166 teacher_warm_k5=0.091
+2026-10-20 23:22:11 | CricketX seed 66: 1.3 min | cross gap moment=0.209 teacher=0.031 teacher_n32=0.133 teacher_warm_k5=0.077
+2026-10-20 23:23:16 | Earthquakes seed 44: 1.1 min | cross gap moment=0.188 teacher=0.014 teacher_n32=0.023 teacher_warm_k5=0.015
+2026-10-20 23:24:21 | Earthquakes seed 55: 1.1 min | cross gap moment=0.124 teacher=0.002 teacher_n32=0.028 teacher_warm_k5=0.115
+2026-10-20 23:25:24 | Earthquakes seed 66: 1.1 min | cross gap moment=0.176 teacher=-0.003 teacher_n32=0.034 teacher_warm_k5=0.048
+2026-10-20 23:26:59 | FaceAll seed 44: 1.6 min | cross gap moment=0.435 teacher=0.020 teacher_n32=0.323 teacher_warm_k5=0.086
+2026-10-20 23:28:33 | FaceAll seed 55: 1.6 min | cross gap moment=0.447 teacher=0.029 teacher_n32=0.304 teacher_warm_k5=0.098
+2026-10-20 23:30:09 | FaceAll seed 66: 1.6 min | cross gap moment=0.489 teacher=0.027 teacher_n32=0.292 teacher_warm_k5=0.135
+2026-10-20 23:30:55 | Symbols seed 44: 0.8 min | cross gap moment=0.413 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.017
+2026-10-20 23:31:42 | Symbols seed 55: 0.8 min | cross gap moment=0.437 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.017
+2026-10-20 23:32:30 | Symbols seed 66: 0.8 min | cross gap moment=0.471 teacher=0.000 teacher_n32=nan teacher_warm_k5=0.022
+2026-10-20 23:33:57 | RefrigerationDevices seed 44: 1.5 min | cross gap moment=0.056 teacher=0.004 teacher_n32=0.036 teacher_warm_k5=0.046
+2026-10-20 23:35:23 | RefrigerationDevices seed 55: 1.4 min | cross gap moment=0.088 teacher=0.012 teacher_n32=0.044 teacher_warm_k5=0.014
+2026-10-20 23:36:51 | RefrigerationDevices seed 66: 1.5 min | cross gap moment=0.090 teacher=0.026 teacher_n32=0.034 teacher_warm_k5=0.058
+2026-10-20 23:39:06 | TwoPatterns seed 44: 2.2 min | cross gap moment=0.218 teacher=0.021 teacher_n32=0.152 teacher_warm_k5=0.109
+2026-10-20 23:41:19 | TwoPatterns seed 55: 2.2 min | cross gap moment=0.189 teacher=0.022 teacher_n32=0.234 teacher_warm_k5=0.144
+2026-10-20 23:43:35 | TwoPatterns seed 66: 2.3 min | cross gap moment=0.241 teacher=0.031 teacher_n32=0.219 teacher_warm_k5=0.135
+2026-10-20 23:45:17 | ECG5000 seed 44: 1.7 min | cross gap moment=0.258 teacher=0.034 teacher_n32=0.152 teacher_warm_k5=0.073
+2026-10-20 23:46:59 | ECG5000 seed 55: 1.7 min | cross gap moment=0.301 teacher=0.014 teacher_n32=0.099 teacher_warm_k5=0.018
+2026-10-20 23:48:44 | ECG5000 seed 66: 1.7 min | cross gap moment=0.213 teacher=0.010 teacher_n32=0.123 teacher_warm_k5=0.010
+2026-10-20 23:51:09 | Wafer seed 44: 2.4 min | cross gap moment=0.569 teacher=0.016 teacher_n32=0.338 teacher_warm_k5=0.134
+2026-10-20 23:53:35 | Wafer seed 55: 2.4 min | cross gap moment=0.481 teacher=0.013 teacher_n32=0.422 teacher_warm_k5=0.073
+2026-10-20 23:56:01 | Wafer seed 66: 2.4 min | cross gap moment=0.641 teacher=0.008 teacher_n32=0.297 teacher_warm_k5=0.060
+2026-10-20 23:57:37 | Yoga seed 44: 1.6 min | cross gap moment=0.347 teacher=0.071 teacher_n32=0.239 teacher_warm_k5=0.137
+2026-10-20 23:59:12 | Yoga seed 55: 1.6 min | cross gap moment=0.302 teacher=0.071 teacher_n32=0.212 teacher_warm_k5=0.074
+2026-10-21 00:00:47 | Yoga seed 66: 1.6 min | cross gap moment=0.365 teacher=0.074 teacher_n32=0.248 teacher_warm_k5=0.123
+2026-10-21 00:03:32 | UWaveGestureLibraryX seed 44: 2.8 min | cross gap moment=0.263 teacher=0.027 teacher_n32=0.153 teacher_warm_k5=0.116
+2026-10-21 00:06:19 | UWaveGestureLibraryX seed 55: 2.8 min | cross gap moment=0.280 teacher=0.022 teacher_n32=0.175 teacher_warm_k5=0.115
+2026-10-21 00:09:06 | UWaveGestureLibraryX seed 66: 2.8 min | cross gap moment=0.242 teacher=0.018 teacher_n32=0.253 teacher_warm_k5=0.092
+2026-10-21 00:12:34 | FordA seed 44: 3.5 min | cross gap moment=0.042 teacher=0.059 teacher_n32=0.047 teacher_warm_k5=0.052
+2026-10-21 00:16:01 | FordA seed 55: 3.5 min | cross gap moment=0.045 teacher=0.062 teacher_n32=0.067 teacher_warm_k5=0.053
+2026-10-21 00:19:33 | FordA seed 66: 3.5 min | cross gap moment=0.031 teacher=0.050 teacher_n32=0.032 teacher_warm_k5=0.034
+2026-10-21 00:25:32 | StarLightCurves seed 44: 6.0 min | cross gap moment=0.442 teacher=0.008 teacher_n32=0.078 teacher_warm_k5=0.077
+2026-10-21 00:31:25 | StarLightCurves seed 55: 5.9 min | cross gap moment=0.392 teacher=0.015 teacher_n32=0.126 teacher_warm_k5=0.060
+2026-10-21 00:37:26 | StarLightCurves seed 66: 6.0 min | cross gap moment=0.385 teacher=0.012 teacher_n32=0.088 teacher_warm_k5=0.053
+2026-10-21 00:37:37 | Fitting the three-timescale model to run B alone ...
+2026-10-21 00:38:11 | pairs Coffee seed 44: 0.1 min | moment gap joint=0.110 independent=0.149
+2026-10-21 00:38:19 | pairs Coffee seed 55: 0.1 min | moment gap joint=-0.072 independent=0.072
+2026-10-21 00:38:27 | pairs Coffee seed 66: 0.1 min | moment gap joint=-0.072 independent=0.303
+2026-10-21 00:38:32 | pairs ECG200 seed 44: 0.1 min | moment gap joint=-0.099 independent=-0.039
+2026-10-21 00:38:37 | pairs ECG200 seed 55: 0.1 min | moment gap joint=-0.069 independent=0.059
+2026-10-21 00:38:42 | pairs ECG200 seed 66: 0.1 min | moment gap joint=-0.044 independent=-0.010
+2026-10-21 00:38:48 | pairs GunPoint seed 44: 0.1 min | moment gap joint=-0.047 independent=0.047
+2026-10-21 00:38:54 | pairs GunPoint seed 55: 0.1 min | moment gap joint=-0.001 independent=-0.033
+2026-10-21 00:39:00 | pairs GunPoint seed 66: 0.1 min | moment gap joint=0.133 independent=0.040
+2026-10-21 00:39:07 | pairs Plane seed 44: 0.1 min | moment gap joint=-0.018 independent=0.013
+2026-10-21 00:39:13 | pairs Plane seed 55: 0.1 min | moment gap joint=0.051 independent=0.096
+2026-10-21 00:39:19 | pairs Plane seed 66: 0.1 min | moment gap joint=-0.014 independent=0.002
+2026-10-21 00:39:25 | pairs SyntheticControl seed 44: 0.1 min | moment gap joint=0.026 independent=0.020
+2026-10-21 00:39:33 | pairs SyntheticControl seed 55: 0.1 min | moment gap joint=0.018 independent=0.006
+2026-10-21 00:39:39 | pairs SyntheticControl seed 66: 0.1 min | moment gap joint=0.012 independent=0.040
+2026-10-21 00:39:43 | pairs SonyAIBORobotSurface1 seed 44: 0.1 min | moment gap joint=-0.003 independent=0.032
+2026-10-21 00:39:47 | pairs SonyAIBORobotSurface1 seed 55: 0.1 min | moment gap joint=0.019 independent=-0.089
+2026-10-21 00:39:51 | pairs SonyAIBORobotSurface1 seed 66: 0.1 min | moment gap joint=-0.064 independent=-0.012
+2026-10-21 00:40:02 | pairs Lightning7 seed 44: 0.2 min | moment gap joint=-0.061 independent=0.064
+2026-10-21 00:40:12 | pairs Lightning7 seed 55: 0.2 min | moment gap joint=0.010 independent=0.070
+2026-10-21 00:40:23 | pairs Lightning7 seed 66: 0.2 min | moment gap joint=0.017 independent=0.045
+2026-10-21 00:40:36 | pairs Meat seed 44: 0.2 min | moment gap joint=0.075 independent=0.125
+2026-10-21 00:40:50 | pairs Meat seed 55: 0.2 min | moment gap joint=-0.063 independent=-0.037
+2026-10-21 00:41:03 | pairs Meat seed 66: 0.2 min | moment gap joint=0.025 independent=-0.013
+2026-10-21 00:41:13 | pairs Trace seed 44: 0.2 min | moment gap joint=0.003 independent=0.015
+2026-10-21 00:41:23 | pairs Trace seed 55: 0.2 min | moment gap joint=0.010 independent=0.097
+2026-10-21 00:41:33 | pairs Trace seed 66: 0.2 min | moment gap joint=0.025 independent=-0.001
+2026-10-21 00:41:46 | pairs ProximalPhalanxOutlineCorrect seed 44: 0.2 min | moment gap joint=0.064 independent=0.106
+2026-10-21 00:41:58 | pairs ProximalPhalanxOutlineCorrect seed 55: 0.2 min | moment gap joint=0.038 independent=-0.053
+2026-10-21 00:42:11 | pairs ProximalPhalanxOutlineCorrect seed 66: 0.2 min | moment gap joint=0.077 independent=-0.020
+2026-10-21 00:42:26 | pairs Ham seed 44: 0.2 min | moment gap joint=0.026 independent=0.068
+2026-10-21 00:42:41 | pairs Ham seed 55: 0.2 min | moment gap joint=-0.017 independent=-0.065
+2026-10-21 00:42:56 | pairs Ham seed 66: 0.2 min | moment gap joint=-0.131 independent=0.000
+2026-10-21 00:43:01 | pairs MoteStrain seed 44: 0.1 min | moment gap joint=-0.005 independent=0.042
+2026-10-21 00:43:06 | pairs MoteStrain seed 55: 0.1 min | moment gap joint=0.021 independent=0.012
+2026-10-21 00:43:12 | pairs MoteStrain seed 66: 0.1 min | moment gap joint=0.047 independent=-0.035
+2026-10-21 00:43:22 | pairs MedicalImages seed 44: 0.2 min | moment gap joint=-0.005 independent=-0.001
+2026-10-21 00:43:33 | pairs MedicalImages seed 55: 0.2 min | moment gap joint=-0.024 independent=-0.013
+2026-10-21 00:43:43 | pairs MedicalImages seed 66: 0.2 min | moment gap joint=0.010 independent=0.018
+2026-10-21 00:44:01 | pairs Fish seed 44: 0.3 min | moment gap joint=0.050 independent=0.042
+2026-10-21 00:44:19 | pairs Fish seed 55: 0.3 min | moment gap joint=0.020 independent=-0.006
+2026-10-21 00:44:36 | pairs Fish seed 66: 0.3 min | moment gap joint=-0.002 independent=0.039
+2026-10-21 00:44:54 | pairs OSULeaf seed 44: 0.3 min | moment gap joint=0.015 independent=0.025
+2026-10-21 00:45:12 | pairs OSULeaf seed 55: 0.3 min | moment gap joint=-0.010 independent=0.015
+2026-10-21 00:45:30 | pairs OSULeaf seed 66: 0.3 min | moment gap joint=0.017 independent=0.013
+2026-10-21 00:45:50 | pairs Strawberry seed 44: 0.3 min | moment gap joint=0.019 independent=-0.042
+2026-10-21 00:46:10 | pairs Strawberry seed 55: 0.3 min | moment gap joint=-0.024 independent=-0.016
+2026-10-21 00:46:30 | pairs Strawberry seed 66: 0.3 min | moment gap joint=-0.007 independent=0.008
+2026-10-21 00:46:48 | pairs CricketX seed 44: 0.3 min | moment gap joint=0.017 independent=0.021
+2026-10-21 00:47:04 | pairs CricketX seed 55: 0.3 min | moment gap joint=0.021 independent=0.026
+2026-10-21 00:47:23 | pairs CricketX seed 66: 0.3 min | moment gap joint=0.006 independent=0.008
+2026-10-21 00:47:47 | pairs Earthquakes seed 44: 0.4 min | moment gap joint=-0.047 independent=-0.105
+2026-10-21 00:48:10 | pairs Earthquakes seed 55: 0.4 min | moment gap joint=-0.081 independent=-0.010
+2026-10-21 00:48:33 | pairs Earthquakes seed 66: 0.4 min | moment gap joint=0.052 independent=0.076
+2026-10-21 00:48:50 | pairs FaceAll seed 44: 0.3 min | moment gap joint=0.014 independent=0.013
+2026-10-21 00:49:09 | pairs FaceAll seed 55: 0.3 min | moment gap joint=0.010 independent=0.039
+2026-10-21 00:49:26 | pairs FaceAll seed 66: 0.3 min | moment gap joint=-0.014 independent=0.019
+2026-10-21 00:49:42 | pairs Symbols seed 44: 0.3 min | moment gap joint=0.029 independent=-0.002
+2026-10-21 00:49:58 | pairs Symbols seed 55: 0.3 min | moment gap joint=-0.008 independent=0.041
+2026-10-21 00:50:14 | pairs Symbols seed 66: 0.3 min | moment gap joint=0.017 independent=-0.002
+2026-10-21 00:50:47 | pairs RefrigerationDevices seed 44: 0.6 min | moment gap joint=-0.012 independent=-0.000
+2026-10-21 00:51:20 | pairs RefrigerationDevices seed 55: 0.6 min | moment gap joint=0.008 independent=0.002
+2026-10-21 00:51:54 | pairs RefrigerationDevices seed 66: 0.6 min | moment gap joint=0.020 independent=0.010
+2026-10-21 00:52:23 | pairs TwoPatterns seed 44: 0.5 min | moment gap joint=0.011 independent=0.032
+2026-10-21 00:52:50 | pairs TwoPatterns seed 55: 0.5 min | moment gap joint=0.014 independent=0.008
+2026-10-21 00:53:17 | pairs TwoPatterns seed 66: 0.5 min | moment gap joint=0.016 independent=0.037
+2026-10-21 00:53:38 | pairs ECG5000 seed 44: 0.3 min | moment gap joint=0.008 independent=0.005
+2026-10-21 00:53:59 | pairs ECG5000 seed 55: 0.3 min | moment gap joint=0.018 independent=0.025
+2026-10-21 00:54:19 | pairs ECG5000 seed 66: 0.3 min | moment gap joint=-0.027 independent=-0.027
+2026-10-21 00:54:53 | pairs Wafer seed 44: 0.6 min | moment gap joint=0.031 independent=0.087
+2026-10-21 00:55:27 | pairs Wafer seed 55: 0.6 min | moment gap joint=0.052 independent=0.061
+2026-10-21 00:55:59 | pairs Wafer seed 66: 0.5 min | moment gap joint=0.072 independent=0.109
+2026-10-21 00:56:29 | pairs Yoga seed 44: 0.5 min | moment gap joint=0.067 independent=0.038
+2026-10-21 00:56:58 | pairs Yoga seed 55: 0.5 min | moment gap joint=0.055 independent=0.083
+2026-10-21 00:57:27 | pairs Yoga seed 66: 0.5 min | moment gap joint=0.047 independent=0.066
+2026-10-21 00:58:08 | pairs UWaveGestureLibraryX seed 44: 0.7 min | moment gap joint=0.012 independent=0.014
+2026-10-21 00:58:49 | pairs UWaveGestureLibraryX seed 55: 0.7 min | moment gap joint=0.014 independent=0.011
+2026-10-21 00:59:29 | pairs UWaveGestureLibraryX seed 66: 0.7 min | moment gap joint=0.017 independent=0.011
+2026-10-21 01:00:46 | pairs FordA seed 44: 1.3 min | moment gap joint=-0.023 independent=0.012
+2026-10-21 01:02:06 | pairs FordA seed 55: 1.3 min | moment gap joint=0.025 independent=0.015
+2026-10-21 01:03:24 | pairs FordA seed 66: 1.3 min | moment gap joint=-0.001 independent=0.018
+2026-10-21 01:05:32 | pairs StarLightCurves seed 44: 2.1 min | moment gap joint=0.014 independent=0.012
+2026-10-21 01:07:40 | pairs StarLightCurves seed 55: 2.1 min | moment gap joint=0.005 independent=0.010
+2026-10-21 01:09:50 | pairs StarLightCurves seed 66: 2.2 min | moment gap joint=0.011 independent=0.015
+2026-10-21 01:09:52 | Done in 148.2 min. Tables: /content/drive/MyDrive/memristive_device_generalization/portability_v10_reviewer_gaps/tables

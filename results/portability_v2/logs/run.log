@@ -1,0 +1,98 @@
+2026-10-19 23:41:36 | ====================================================================================================
+2026-10-19 23:41:36 | MEMRISTIVE RESERVOIR PORTABILITY v2.0.0 | root=/content/drive/MyDrive/memristive_device_generalization/portability_v2 | smoke=False | ideal=False
+2026-10-19 23:41:36 | Drive mounting is intentionally not performed by this script.
+2026-10-19 23:41:37 | Interface calibration:
+family    t_switch  t_recover                                   effective_durations
+    LD    2.280000    0.00000               0.0684; 0.1368; 0.285; 0.57; 1.14; 2.28
+    VT    0.116100    0.00000 0.003483; 0.006966; 0.01451; 0.02903; 0.05805; 0.1161
+    VV    0.000560    0.36537  1.68e-05; 3.36e-05; 7e-05; 0.00014; 0.00028; 0.00056
+    ZH    3.000000   10.00000                                      1; 1; 1; 1; 2; 3
+    DF    0.000003    0.00000     9e-08; 1.8e-07; 3.75e-07; 7.5e-07; 1.5e-06; 3e-06
+    DN 1181.000000    1.00000                           35; 71; 148; 295; 590; 1181
+2026-10-19 23:41:37 | Closed-form solver self-tests:
+                                test    abs_error
+ DN closed form vs pulse map, V=0.62 1.131388e-06
+  DN closed form vs pulse map, V=0.7 4.695048e-06
+  DN closed form vs pulse map, V=0.8 3.074372e-05
+     VT exact vs RK4, V=0.5, dt=0.05 4.440892e-16
+   VT exact vs RK4, V=-0.5, dt=0.002 9.853229e-16
+    VT exact vs RK4, V=-0.4, dt=0.01 1.054712e-15
+ZH closed form vs iteration, 7 ticks 1.110223e-16
+2026-10-19 23:41:37 | Protocol hash bf73c614060d written to /content/drive/MyDrive/memristive_device_generalization/portability_v2/config/protocol.json
+2026-10-19 23:41:43 | Computing information-processing capacities ...
+2026-10-19 23:42:16 | Computing probe emulation quality for every ordered pair and operating point ...
+2026-10-19 23:42:37 | Probe phase done in 1.0 min
+2026-10-19 23:42:37 | Installing aeon ...
+2026-10-19 23:42:47 | ECG5000: train=500 test=4500 length=140 classes=5
+2026-10-19 23:42:51 | FordA: train=3601 test=1320 length=500 classes=2
+2026-10-19 23:42:53 | Wafer: train=1000 test=6164 length=152 classes=2
+2026-10-19 23:42:55 | UWaveGestureLibraryX: train=896 test=3582 length=315 classes=8
+2026-10-19 23:42:57 | CricketX: train=390 test=390 length=300 classes=12
+2026-10-19 23:42:59 | RefrigerationDevices: train=375 test=375 length=720 classes=3
+2026-10-19 23:43:00 | Earthquakes: train=322 test=139 length=512 classes=2
+2026-10-19 23:43:05 | StarLightCurves: train=1000 test=8236 length=1024 classes=3
+2026-10-19 23:43:08 | GunPoint: train=50 test=150 length=150 classes=2
+2026-10-19 23:43:14 | TwoPatterns: train=1000 test=4000 length=128 classes=4
+2026-10-19 23:43:17 | SyntheticControl: train=300 test=300 length=60 classes=6
+2026-10-19 23:43:21 | Trace: train=100 test=100 length=275 classes=4
+2026-10-19 23:43:26 | FaceAll: train=560 test=1690 length=131 classes=14
+2026-10-19 23:43:31 | Strawberry: train=613 test=370 length=235 classes=2
+2026-10-19 23:43:37 | Yoga: train=300 test=3000 length=426 classes=2
+2026-10-19 23:43:41 | ECG200: train=100 test=100 length=96 classes=2
+2026-10-19 23:43:44 | Plane: train=105 test=105 length=144 classes=7
+2026-10-19 23:43:49 | Symbols: train=25 test=995 length=398 classes=6
+2026-10-19 23:44:08 | ECG200 seed 11: 0.1 min | median cross regret zero=0.534 moment=0.414 probe_fir=0.445 full=0.044
+2026-10-19 23:44:12 | ECG200 seed 22: 0.1 min | median cross regret zero=0.555 moment=0.486 probe_fir=0.489 full=0.056
+2026-10-19 23:44:16 | ECG200 seed 33: 0.1 min | median cross regret zero=0.547 moment=0.385 probe_fir=0.491 full=0.057
+2026-10-19 23:44:21 | GunPoint seed 11: 0.1 min | median cross regret zero=0.559 moment=0.426 probe_fir=0.559 full=0.040
+2026-10-19 23:44:26 | GunPoint seed 22: 0.1 min | median cross regret zero=0.445 moment=0.505 probe_fir=0.445 full=0.079
+2026-10-19 23:44:32 | GunPoint seed 33: 0.1 min | median cross regret zero=0.585 moment=0.430 probe_fir=0.517 full=0.019
+2026-10-19 23:44:38 | Plane seed 11: 0.1 min | median cross regret zero=0.943 moment=0.749 probe_fir=0.891 full=0.056
+2026-10-19 23:44:44 | Plane seed 22: 0.1 min | median cross regret zero=0.956 moment=0.757 probe_fir=0.815 full=0.027
+2026-10-19 23:44:49 | Plane seed 33: 0.1 min | median cross regret zero=0.924 moment=0.780 probe_fir=0.852 full=0.079
+2026-10-19 23:44:55 | SyntheticControl seed 11: 0.1 min | median cross regret zero=0.746 moment=0.748 probe_fir=0.670 full=0.080
+2026-10-19 23:45:01 | SyntheticControl seed 22: 0.1 min | median cross regret zero=0.768 moment=0.770 probe_fir=0.606 full=0.048
+2026-10-19 23:45:06 | SyntheticControl seed 33: 0.1 min | median cross regret zero=0.752 moment=0.734 probe_fir=0.640 full=0.054
+2026-10-19 23:45:16 | Trace seed 11: 0.2 min | median cross regret zero=0.854 moment=0.666 probe_fir=0.724 full=0.078
+2026-10-19 23:45:26 | Trace seed 22: 0.2 min | median cross regret zero=0.761 moment=0.628 probe_fir=0.663 full=0.063
+2026-10-19 23:45:36 | Trace seed 33: 0.2 min | median cross regret zero=0.782 moment=0.589 probe_fir=0.659 full=0.095
+2026-10-19 23:46:00 | Strawberry seed 11: 0.4 min | median cross regret zero=0.546 moment=0.516 probe_fir=0.551 full=0.094
+2026-10-19 23:46:24 | Strawberry seed 22: 0.4 min | median cross regret zero=0.555 moment=0.501 probe_fir=0.546 full=0.115
+2026-10-19 23:46:47 | Strawberry seed 33: 0.4 min | median cross regret zero=0.543 moment=0.503 probe_fir=0.547 full=0.084
+2026-10-19 23:47:12 | CricketX seed 11: 0.4 min | median cross regret zero=0.310 moment=0.246 probe_fir=0.253 full=0.020
+2026-10-19 23:47:37 | CricketX seed 22: 0.4 min | median cross regret zero=0.303 moment=0.251 probe_fir=0.252 full=0.068
+2026-10-19 23:48:01 | CricketX seed 33: 0.4 min | median cross regret zero=0.290 moment=0.253 probe_fir=0.253 full=0.038
+2026-10-19 23:48:28 | Earthquakes seed 11: 0.4 min | median cross regret zero=0.216 moment=0.228 probe_fir=0.216 full=0.063
+2026-10-19 23:48:54 | Earthquakes seed 22: 0.4 min | median cross regret zero=0.215 moment=0.193 probe_fir=0.215 full=0.038
+2026-10-19 23:49:20 | Earthquakes seed 33: 0.4 min | median cross regret zero=0.230 moment=0.219 probe_fir=0.216 full=0.005
+2026-10-19 23:49:50 | FaceAll seed 11: 0.5 min | median cross regret zero=0.687 moment=0.630 probe_fir=0.641 full=0.061
+2026-10-19 23:50:19 | FaceAll seed 22: 0.5 min | median cross regret zero=0.694 moment=0.628 probe_fir=0.657 full=0.089
+2026-10-19 23:50:48 | FaceAll seed 33: 0.5 min | median cross regret zero=0.689 moment=0.636 probe_fir=0.639 full=0.095
+2026-10-19 23:51:25 | Symbols seed 11: 0.6 min | median cross regret zero=0.696 moment=0.447 probe_fir=0.460 full=0.035
+2026-10-19 23:52:01 | Symbols seed 22: 0.6 min | median cross regret zero=0.679 moment=0.544 probe_fir=0.506 full=-0.034
+2026-10-19 23:52:37 | Symbols seed 33: 0.6 min | median cross regret zero=0.683 moment=0.601 probe_fir=0.600 full=0.087
+2026-10-19 23:53:28 | RefrigerationDevices seed 11: 0.8 min | median cross regret zero=0.254 moment=0.262 probe_fir=0.256 full=0.020
+2026-10-19 23:54:19 | RefrigerationDevices seed 22: 0.8 min | median cross regret zero=0.210 moment=0.192 probe_fir=0.224 full=0.014
+2026-10-19 23:55:09 | RefrigerationDevices seed 33: 0.8 min | median cross regret zero=0.222 moment=0.220 probe_fir=0.252 full=0.080
+2026-10-19 23:56:09 | TwoPatterns seed 11: 1.0 min | median cross regret zero=0.722 moment=0.558 probe_fir=0.629 full=0.136
+2026-10-19 23:57:07 | TwoPatterns seed 22: 1.0 min | median cross regret zero=0.720 moment=0.518 probe_fir=0.608 full=0.170
+2026-10-19 23:58:06 | TwoPatterns seed 33: 1.0 min | median cross regret zero=0.728 moment=0.553 probe_fir=0.522 full=0.181
+2026-10-19 23:59:06 | ECG5000 seed 11: 1.0 min | median cross regret zero=0.326 moment=0.294 probe_fir=0.306 full=0.011
+2026-10-20 00:00:06 | ECG5000 seed 22: 1.0 min | median cross regret zero=0.386 moment=0.303 probe_fir=0.342 full=-0.004
+2026-10-20 00:01:05 | ECG5000 seed 33: 1.0 min | median cross regret zero=0.331 moment=0.322 probe_fir=0.323 full=0.030
+2026-10-20 00:02:40 | Wafer seed 11: 1.6 min | median cross regret zero=0.840 moment=0.629 probe_fir=0.689 full=0.000
+2026-10-20 00:04:16 | Wafer seed 22: 1.6 min | median cross regret zero=0.824 moment=0.500 probe_fir=0.540 full=0.006
+2026-10-20 00:05:51 | Wafer seed 33: 1.6 min | median cross regret zero=0.888 moment=0.825 probe_fir=0.774 full=0.030
+2026-10-20 00:07:51 | Yoga seed 11: 2.0 min | median cross regret zero=0.382 moment=0.370 probe_fir=0.371 full=0.052
+2026-10-20 00:09:47 | Yoga seed 22: 1.9 min | median cross regret zero=0.357 moment=0.386 probe_fir=0.370 full=0.031
+2026-10-20 00:11:44 | Yoga seed 33: 1.9 min | median cross regret zero=0.384 moment=0.387 probe_fir=0.362 full=0.003
+2026-10-20 00:13:48 | UWaveGestureLibraryX seed 11: 2.0 min | median cross regret zero=0.521 moment=0.494 probe_fir=0.393 full=0.029
+2026-10-20 00:15:48 | UWaveGestureLibraryX seed 22: 2.0 min | median cross regret zero=0.532 moment=0.449 probe_fir=0.394 full=0.025
+2026-10-20 00:17:49 | UWaveGestureLibraryX seed 33: 2.0 min | median cross regret zero=0.525 moment=0.420 probe_fir=0.359 full=0.017
+2026-10-20 00:21:21 | FordA seed 11: 3.4 min | median cross regret zero=0.086 moment=0.077 probe_fir=0.078 full=0.002
+2026-10-20 00:24:46 | FordA seed 22: 3.4 min | median cross regret zero=0.098 moment=0.108 probe_fir=0.102 full=0.029
+2026-10-20 00:28:11 | FordA seed 33: 3.4 min | median cross regret zero=0.089 moment=0.060 probe_fir=0.085 full=0.019
+2026-10-20 00:42:13 | StarLightCurves seed 11: 14.0 min | median cross regret zero=0.746 moment=0.700 probe_fir=0.732 full=0.064
+2026-10-20 00:56:24 | StarLightCurves seed 22: 14.2 min | median cross regret zero=0.753 moment=0.742 probe_fir=0.725 full=0.034
+2026-10-20 01:10:58 | StarLightCurves seed 33: 14.6 min | median cross regret zero=0.753 moment=0.748 probe_fir=0.720 full=0.022
+2026-10-20 01:17:48 | Done in 96.2 min. Tables: /content/drive/MyDrive/memristive_device_generalization/portability_v2/tables | Figures: /content/drive/MyDrive/memristive_device_generalization/portability_v2/figures

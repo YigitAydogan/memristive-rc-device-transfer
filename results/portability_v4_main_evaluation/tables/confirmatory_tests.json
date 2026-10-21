@@ -1,0 +1,92 @@
+{
+  "C1 paired nonlinear map < moment matching (cross family)": {
+    "datasets": 28,
+    "datasets_a_better": 28,
+    "median_a": 0.00741185897435892,
+    "median_b": 0.26585969372425194,
+    "median_difference": -0.2608202763278695,
+    "p": 3.725290298461914e-09,
+    "p_holm": 2.9802322387695312e-08
+  },
+  "C2 paired nonlinear map < paired linear map (cross family)": {
+    "datasets": 28,
+    "datasets_a_better": 23,
+    "median_a": 0.00741185897435892,
+    "median_b": 0.02052426979151119,
+    "median_difference": -0.02332165094036842,
+    "p": 0.00026278942823410034,
+    "p_holm": 0.0005255788564682007
+  },
+  "C3 twin-paired nonlinear map < moment matching (cross family)": {
+    "datasets": 28,
+    "datasets_a_better": 28,
+    "median_a": 0.03994581807081799,
+    "median_b": 0.26585969372425194,
+    "median_difference": -0.2260597465932498,
+    "p": 3.725290298461914e-09,
+    "p_holm": 2.9802322387695312e-08
+  },
+  "C4 feature correlation predicts moment gap (rho < 0)": {
+    "datasets": 28,
+    "datasets_in_direction": 28,
+    "mean_rho": -0.5721398430909085,
+    "median_rho": -0.6138434204643237,
+    "p": 3.725290298461914e-09,
+    "p_holm": 2.9802322387695312e-08
+  },
+  "C5 readout cosine predicts warm-start advantage (rho > 0)": {
+    "datasets": 28,
+    "datasets_in_direction": 27,
+    "mean_rho": 0.528231623970169,
+    "median_rho": 0.5817490202205442,
+    "p": 7.450580596923828e-09,
+    "p_holm": 3.725290298461914e-08
+  },
+  "C6 source-selected operating point > random operating point": {
+    "datasets": 28,
+    "datasets_a_better": 24,
+    "median_a": 0.3805638331670588,
+    "median_b": 0.32754787419559206,
+    "median_difference": 0.05877018877160908,
+    "p": 8.825212717056274e-06,
+    "p_holm": 2.6475638151168823e-05
+  },
+  "C7a target total capacity predicts probe emulation R2 (rho > 0)": {
+    "ci95_high": 0.7105648159900847,
+    "ci95_low": 0.35177327341918607,
+    "n_clusters": 30,
+    "n_points": 1080,
+    "p": 0.0,
+    "p_holm": 0.0,
+    "p_one_sided_positive": 0.0,
+    "rho": 0.5378719600997723
+  },
+  "C7b memory-profile similarity predicts probe emulation R2 (rho > 0)": {
+    "ci95_high": 0.6317110504429796,
+    "ci95_low": 0.3563315863778816,
+    "n_clusters": 30,
+    "n_points": 916,
+    "p": 0.0,
+    "p_holm": 0.0,
+    "p_one_sided_positive": 0.0,
+    "rho": 0.48686723400831333
+  },
+  "C8 paired nonlinear map vs pseudo labels (two-sided)": {
+    "datasets": 28,
+    "datasets_a_better": 15,
+    "median_a": 0.00741185897435892,
+    "median_b": 0.014532685881370109,
+    "median_difference": -0.0010831483448450335,
+    "p": 0.5221440717577934,
+    "p_holm": 0.5221440717577934
+  },
+  "C9 source-selected vs universal default operating point (two-sided)": {
+    "datasets": 28,
+    "datasets_a_better": 1,
+    "median_a": 0.3805638331670588,
+    "median_b": 0.463584960562298,
+    "median_difference": -0.06099999999999996,
+    "p": 1.4901161193847656e-08,
+    "p_holm": 5.960464477539063e-08
+  }
+}

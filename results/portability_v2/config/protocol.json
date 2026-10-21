@@ -1,0 +1,249 @@
+{
+  "alpha_rel": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "coral_eps": 0.05,
+  "datasets": [
+    "ECG5000",
+    "FordA",
+    "Wafer",
+    "UWaveGestureLibraryX",
+    "CricketX",
+    "RefrigerationDevices",
+    "Earthquakes",
+    "StarLightCurves",
+    "GunPoint",
+    "TwoPatterns",
+    "SyntheticControl",
+    "Trace",
+    "FaceAll",
+    "Strawberry",
+    "Yoga",
+    "ECG200",
+    "Plane",
+    "Symbols"
+  ],
+  "families": {
+    "DF": {
+      "citation": "Cisternas Ferri et al., Materials 2019",
+      "code": "DF",
+      "discrete": false,
+      "dt_hint": 1e-06,
+      "name": "Diffusive compact",
+      "params": {
+        "R_off": 9500.0,
+        "R_on": 35.0,
+        "alpha_minus": 15.0,
+        "alpha_plus": 15.0,
+        "delta_minus": 0.2,
+        "delta_plus": 0.2,
+        "lambda0": 0.5,
+        "tau0": 0.01,
+        "v0": 0.3,
+        "x0": 0.5
+      },
+      "v_mid": 0.0,
+      "v_pos": 2.5,
+      "volatile": false,
+      "voltage_mode": "bipolar",
+      "x_hi": 1.0,
+      "x_lo": 0.0
+    },
+    "DN": {
+      "citation": "Daniels et al., Adv. Electron. Mater. 2026",
+      "code": "DN",
+      "discrete": true,
+      "dt_hint": 1.0,
+      "name": "Volatile dynamic (Daniels)",
+      "params": {
+        "V_th": 0.6,
+        "alpha_i": 1e-08,
+        "beta_i": 0.5,
+        "delta_i": 4.0,
+        "eta": 8.0,
+        "gamma_i": 1e-05,
+        "lambda": 1000.0,
+        "t_pulse": 1e-09,
+        "tau": 1e-08,
+        "x0": 0.1,
+        "x_max": 1.0,
+        "x_min": 0.1
+      },
+      "v_mid": 0.5,
+      "v_pos": 0.8,
+      "volatile": true,
+      "voltage_mode": "unipolar",
+      "x_hi": 1.0,
+      "x_lo": 0.1
+    },
+    "LD": {
+      "citation": "Strukov et al., Nature 2008",
+      "code": "LD",
+      "discrete": false,
+      "dt_hint": 0.001,
+      "name": "Linear ion drift",
+      "params": {
+        "D": 1e-08,
+        "R_off": 100000.0,
+        "R_on": 100.0,
+        "mu_v": 1e-14,
+        "x0": 0.5
+      },
+      "v_mid": 0.0,
+      "v_pos": 0.5,
+      "volatile": false,
+      "voltage_mode": "bipolar",
+      "x_hi": 1.0,
+      "x_lo": 0.0
+    },
+    "VT": {
+      "citation": "Bednarz and Garda, Energies 2021",
+      "code": "VT",
+      "discrete": false,
+      "dt_hint": 0.0001,
+      "name": "VTEAM (fitted SDC)",
+      "params": {
+        "R_off": 352196.0,
+        "R_on": 1357.8,
+        "alpha_off": 1.0,
+        "alpha_on": 2.0,
+        "k_off": 0.2969,
+        "k_on": -997.642,
+        "v_off": 0.044669,
+        "v_on": -0.340661,
+        "x0": 0.00099943
+      },
+      "v_mid": 0.0,
+      "v_pos": 0.5,
+      "volatile": false,
+      "voltage_mode": "bipolar",
+      "x_hi": 1.0,
+      "x_lo": 0.0
+    },
+    "VV": {
+      "citation": "Patni et al., IFETC 2024",
+      "code": "VV",
+      "discrete": false,
+      "dt_hint": 1e-05,
+      "name": "V-VTEAM volatile",
+      "params": {
+        "R_off": 15000000000.0,
+        "R_on": 30000.0,
+        "alpha": 0.09999,
+        "beta": 2.14262,
+        "k": 650.0,
+        "tau": 1.0444,
+        "v_hold": 1.5726,
+        "v_th": 1.744,
+        "x0": 0.0
+      },
+      "v_mid": 1.6583,
+      "v_pos": 3.0,
+      "volatile": true,
+      "voltage_mode": "unipolar",
+      "x_hi": 1.0,
+      "x_lo": 0.0
+    },
+    "ZH": {
+      "citation": "Zhong et al., Nat. Commun. 2021",
+      "code": "ZH",
+      "discrete": true,
+      "dt_hint": 1.0,
+      "name": "Dynamic memristor (Zhong)",
+      "params": {
+        "G0": 0.5,
+        "Kn": 0.32,
+        "Kp": 9.13,
+        "alpha": 0.23,
+        "r": 0.99,
+        "x0": 0.5
+      },
+      "v_mid": 0.0,
+      "v_pos": 3.0,
+      "volatile": true,
+      "voltage_mode": "bipolar",
+      "x_hi": 1.0,
+      "x_lo": 0.0
+    }
+  },
+  "fir_taps": 24,
+  "fracs": [
+    0.03,
+    0.06,
+    0.125,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "fresh_datasets": [
+    "GunPoint",
+    "TwoPatterns",
+    "SyntheticControl",
+    "Trace",
+    "FaceAll",
+    "Strawberry",
+    "Yoga",
+    "ECG200",
+    "Plane",
+    "Symbols"
+  ],
+  "gains": [
+    0.2,
+    0.35,
+    0.5,
+    0.65,
+    0.8,
+    1.0
+  ],
+  "hypotheses": {
+    "H1": "probe FIR alignment lowers cross-family regret vs moment matching (dataset-level one-sided Wilcoxon, Holm over label-free methods)",
+    "H2": "within datasets, higher probe emulation R2 predicts lower probe-aligned regret (mean Spearman rho < 0)",
+    "H3": "probe emulation R2 increases with source x target linear-capacity fraction (Spearman)",
+    "H4": "source-selected operating point beats a random operating point on the target (dataset-level one-sided Wilcoxon)",
+    "H5": "probe warm start beats scratch for k labels per class (Holm over k)"
+  },
+  "ideal": false,
+  "k_shots": [
+    1,
+    2,
+    5,
+    10
+  ],
+  "lambda_prior": 10.0,
+  "n_bins": 24,
+  "noise": {
+    "c2c": 0.002,
+    "d2d": 0.05,
+    "read_decades": 0.01
+  },
+  "prior_datasets": [
+    "ECG5000",
+    "FordA",
+    "Wafer",
+    "UWaveGestureLibraryX",
+    "CricketX",
+    "RefrigerationDevices",
+    "Earthquakes",
+    "StarLightCurves"
+  ],
+  "probe": [
+    50,
+    256
+  ],
+  "protocol_hash": "bf73c614060d",
+  "quad_taps": 12,
+  "replication_unit": "dataset (pairs are seed medians, datasets are pair medians)",
+  "retention_per_symbol": 0.9,
+  "script_version": "2.0.0",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "smoke": false,
+  "written_utc": "2026-10-19T23:41:37.447608+00:00"
+}

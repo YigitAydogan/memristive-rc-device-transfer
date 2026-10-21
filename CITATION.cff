@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "What survives a device change in memristive reservoir computing? Code and results"
+type: software
+authors:
+  - family-names: "Aydoğan"
+    given-names: "Yiğit"
+    affiliation: "Department of Computer Science, Aberystwyth University, Aberystwyth, United Kingdom"
+    email: "yia@aber.ac.uk"
+  - family-names: "Minayi"
+    given-names: "Elham"
+    affiliation: "Department of Electrical and Electronics Engineering, Dogus University, Istanbul, Türkiye"
+version: "1.0.0"
+date-released: "2026-10-21"
+license: MIT
+repository-code: "https://github.com/YigitAydogan/memristive-rc-device-transfer"
+keywords:
+  - reservoir computing
+  - memristor
+  - device variability
+  - transfer learning
+  - neuromorphic computing

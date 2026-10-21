@@ -1,0 +1,7 @@
+family,name,citation,voltage_mode,v_pos,v_mid,discrete,t_switch,t_recover,effective_durations
+LD,Linear ion drift,"Strukov et al., Nature 2008",bipolar,0.5,0.0,False,2.2800000000000002,0.0,0.0684; 0.1368; 0.285; 0.57; 1.14; 2.28
+VT,VTEAM (fitted SDC),"Bednarz and Garda, Energies 2021",bipolar,0.5,0.0,False,0.11610000000000001,0.0,0.003483; 0.006966; 0.01451; 0.02903; 0.05805; 0.1161
+VV,V-VTEAM volatile,"Patni et al., IFETC 2024",unipolar,3.0,1.6583,False,0.0005600000000000001,0.3653698709557107,1.68e-05; 3.36e-05; 7e-05; 0.00014; 0.00028; 0.00056
+ZH,Dynamic memristor (Zhong),"Zhong et al., Nat. Commun. 2021",bipolar,3.0,0.0,True,3.0,10.0,1; 1; 1; 1; 2; 3
+DF,Diffusive compact,"Cisternas Ferri et al., Materials 2019",bipolar,2.5,0.0,False,3e-06,0.0,9e-08; 1.8e-07; 3.75e-07; 7.5e-07; 1.5e-06; 3e-06
+DN,Volatile dynamic (Daniels),"Daniels et al., Adv. Electron. Mater. 2026",unipolar,0.8,0.5,True,1181.0,1.0,35; 71; 148; 295; 590; 1181

@@ -1,0 +1,35 @@
+{
+  "d2d_levels": [
+    0.05,
+    0.1,
+    0.2,
+    0.35,
+    0.5
+  ],
+  "k_diag": 5,
+  "protocol_hash": "39ef9bd12893",
+  "questions": {
+    "Q1": "Is readout portability governed by feature correspondence (mean feature correlation, CKA), across D2D levels and families?",
+    "Q2": "Does label-free FIR alignment fail because of probe-task excitation mismatch, nonlinearity of the device-to-device map, or information loss? (white vs matched probe, paired linear vs paired nonlinear feature maps)",
+    "Q3": "Does warm start fail because source and target readouts point in different directions (readout cosine)?",
+    "Q4": "Did capacity fail to predict emulation because read noise suppresses nonlinear capacity, and is the linear memory deficit a better predictor?",
+    "Q5": "Does the operating point transfer because utility landscapes are correlated and broad?",
+    "Q6": "Do devices fail to beat the raw baseline because their features are linearly redundant with raw-input features?"
+  },
+  "read_noise_levels": [
+    0.0,
+    0.001,
+    0.003,
+    0.01,
+    0.03
+  ],
+  "reads_v2_from": "/content/drive/MyDrive/memristive_device_generalization/portability_v2",
+  "rff_dim": 512,
+  "script_version": "3.0.0",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "written_utc": "2026-10-20T01:29:50.693333+00:00"
+}

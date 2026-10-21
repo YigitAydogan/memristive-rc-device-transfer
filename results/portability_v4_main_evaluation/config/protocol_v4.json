@@ -1,0 +1,147 @@
+{
+  "budgets": [
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "confirmatory": {
+    "C1": "cross family: paired nonlinear feature map gap < moment matching gap (one-sided Wilcoxon over datasets)",
+    "C2": "cross family: paired nonlinear < paired linear (one-sided)",
+    "C3": "cross family: map to a simulated nominal twin of the source family < moment matching (one-sided)",
+    "C4": "within datasets, Spearman(feature correlation, moment gap) < 0 (one-sided Wilcoxon on rhos)",
+    "C5": "within datasets, Spearman(readout cosine, warm-start advantage at k=5) > 0 (one-sided)",
+    "C6": "source-selected operating point gives higher target nBA than a random operating point (one-sided)",
+    "C7a": "probe emulation R2 rises with target total capacity (Spearman, bootstrap over ordered family pairs)",
+    "C7b": "probe emulation R2 rises with memory-profile similarity (Spearman, bootstrap over ordered family pairs)",
+    "C8": "paired nonlinear map vs pseudo-label refit (two-sided)",
+    "C9": "source-selected vs leave-one-dataset-out universal default operating point (two-sided)",
+    "correction": "Holm over C1 to C9"
+  },
+  "d2d_levels": [
+    0.05,
+    0.2,
+    0.5
+  ],
+  "datasets": [
+    "ECG5000",
+    "FordA",
+    "Wafer",
+    "UWaveGestureLibraryX",
+    "CricketX",
+    "RefrigerationDevices",
+    "Earthquakes",
+    "StarLightCurves",
+    "GunPoint",
+    "TwoPatterns",
+    "SyntheticControl",
+    "Trace",
+    "FaceAll",
+    "Strawberry",
+    "Yoga",
+    "ECG200",
+    "Plane",
+    "Symbols",
+    "MoteStrain",
+    "SonyAIBORobotSurface1",
+    "Coffee",
+    "Meat",
+    "Lightning7",
+    "MedicalImages",
+    "ProximalPhalanxOutlineCorrect",
+    "Ham",
+    "OSULeaf",
+    "Fish"
+  ],
+  "device_seeds": [
+    44,
+    55,
+    66
+  ],
+  "exploratory": [
+    "d2d sweep replication",
+    "pairing budget curve",
+    "pairing with matched probe, white probe or other datasets",
+    "transfer ladder (sign correction, diagonal, linear, nonlinear, score distillation)",
+    "k-shot after pairing",
+    "family-pair matrices",
+    "noise, feature-design and logistic-readout robustness",
+    "leave-one-dataset-out gap prediction",
+    "operating-point decomposition",
+    "noise versus distortion behind the raw-baseline gap",
+    "dataset moderators"
+  ],
+  "feature_variants": [
+    [
+      "bins12",
+      12,
+      "ms"
+    ],
+    [
+      "bins48",
+      48,
+      "ms"
+    ],
+    [
+      "means24",
+      24,
+      "m"
+    ]
+  ],
+  "held_out_datasets": [
+    "MoteStrain",
+    "SonyAIBORobotSurface1",
+    "Coffee",
+    "Meat",
+    "Lightning7",
+    "MedicalImages",
+    "ProximalPhalanxOutlineCorrect",
+    "Ham",
+    "OSULeaf",
+    "Fish"
+  ],
+  "k": [
+    1,
+    5
+  ],
+  "map_alphas": [
+    [
+      0.0001,
+      0.001,
+      0.01,
+      0.1,
+      1.0
+    ],
+    [
+      1e-05,
+      0.0001,
+      0.001,
+      0.01,
+      0.1
+    ]
+  ],
+  "n_alt": 256,
+  "noise_levels": {
+    "noise_high": [
+      0.006,
+      0.03
+    ],
+    "noise_none": [
+      0.0,
+      0.0
+    ]
+  },
+  "protocol_hash": "98fd8d185f36",
+  "registered_utc": "2026-10-20T02:40:50.282425+00:00",
+  "rff_dim": 512,
+  "robustness_seed": 44,
+  "script_version": "4.0.0",
+  "seeds_used_in_earlier_runs": [
+    11,
+    22,
+    33
+  ],
+  "smoke": false,
+  "unit_of_replication": "dataset (pairs are seed medians, datasets are pair medians)"
+}

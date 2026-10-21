@@ -1,0 +1,240 @@
+{
+  "curves": [
+    {
+      "condition": 8.0,
+      "r2_in_sample": 0.9390704592731535,
+      "r2_left_out": 0.9356988704164398,
+      "series": "int"
+    },
+    {
+      "condition": 8.0,
+      "r2_in_sample": 0.8503408989700219,
+      "r2_left_out": 0.8310124653294086,
+      "series": "int_relax"
+    },
+    {
+      "condition": 16.0,
+      "r2_in_sample": 0.9051641261725666,
+      "r2_left_out": 0.8511382027730682,
+      "series": "int"
+    },
+    {
+      "condition": 16.0,
+      "r2_in_sample": 0.8936398019698406,
+      "r2_left_out": 0.8874225519194354,
+      "series": "int_relax"
+    },
+    {
+      "condition": 32.0,
+      "r2_in_sample": 0.9485096730282788,
+      "r2_left_out": 0.9317841423836443,
+      "series": "int"
+    },
+    {
+      "condition": 32.0,
+      "r2_in_sample": 0.8744737760934722,
+      "r2_left_out": 0.8711748755685707,
+      "series": "int_relax"
+    },
+    {
+      "condition": 64.0,
+      "r2_in_sample": 0.7561289487243014,
+      "r2_left_out": 0.45783689926613547,
+      "series": "int"
+    },
+    {
+      "condition": 64.0,
+      "r2_in_sample": 0.8500789477560717,
+      "r2_left_out": 0.8521017213435422,
+      "series": "int_relax"
+    },
+    {
+      "condition": 128.0,
+      "r2_in_sample": 0.7726674563155586,
+      "r2_left_out": 0.22983414096144694,
+      "series": "int"
+    },
+    {
+      "condition": 128.0,
+      "r2_in_sample": 0.8191424223648592,
+      "r2_left_out": 0.8470878105423626,
+      "series": "int_relax"
+    },
+    {
+      "condition": 256.0,
+      "r2_in_sample": 0.8036327336744394,
+      "r2_left_out": 0.6849447244391078,
+      "series": "int"
+    },
+    {
+      "condition": 256.0,
+      "r2_in_sample": 0.780031273487063,
+      "r2_left_out": 0.7320198801337736,
+      "series": "int_relax"
+    },
+    {
+      "condition": 512.0,
+      "r2_in_sample": 0.8584706575260695,
+      "r2_left_out": 0.8598253110680308,
+      "series": "int"
+    },
+    {
+      "condition": 512.0,
+      "r2_in_sample": 0.6725730668464271,
+      "r2_left_out": 0.6487774361933324,
+      "series": "int_relax"
+    },
+    {
+      "condition": 1024.0,
+      "r2_in_sample": 0.2320092716049854,
+      "r2_left_out": -1.9267812315967627,
+      "series": "int"
+    },
+    {
+      "condition": 1024.0,
+      "r2_in_sample": -0.27263137781150815,
+      "r2_left_out": -5.1395779693161705,
+      "series": "int_relax"
+    },
+    {
+      "condition": 1.5,
+      "r2_in_sample": 0.4433403700956201,
+      "r2_left_out": -2.918437000454149,
+      "series": "amp"
+    },
+    {
+      "condition": 1.5,
+      "r2_in_sample": 0.8062704760813181,
+      "r2_left_out": 0.8377729021758593,
+      "series": "amp_relax"
+    },
+    {
+      "condition": 2.0,
+      "r2_in_sample": 0.561654173783503,
+      "r2_left_out": 0.3371864541634204,
+      "series": "amp"
+    },
+    {
+      "condition": 2.0,
+      "r2_in_sample": 0.6944521553390222,
+      "r2_left_out": 0.6311829941036735,
+      "series": "amp_relax"
+    },
+    {
+      "condition": 2.5,
+      "r2_in_sample": 0.78403425100475,
+      "r2_left_out": 0.7197125761447176,
+      "series": "amp"
+    },
+    {
+      "condition": 2.5,
+      "r2_in_sample": 0.8420596841836965,
+      "r2_left_out": 0.8248463469423959,
+      "series": "amp_relax"
+    },
+    {
+      "condition": 3.0,
+      "r2_in_sample": 0.9213368793291833,
+      "r2_left_out": 0.9012990052776503,
+      "series": "amp"
+    },
+    {
+      "condition": 3.0,
+      "r2_in_sample": 0.9096487872454132,
+      "r2_left_out": 0.9033726890064941,
+      "series": "amp_relax"
+    },
+    {
+      "condition": 3.5,
+      "r2_in_sample": 0.8762782024927664,
+      "r2_left_out": 0.7944095752213646,
+      "series": "amp"
+    },
+    {
+      "condition": 3.5,
+      "r2_in_sample": 0.9441040007764445,
+      "r2_left_out": 0.9358935607021299,
+      "series": "amp_relax"
+    },
+    {
+      "condition": 4.0,
+      "r2_in_sample": 0.8952398453773738,
+      "r2_left_out": 0.7790117532097356,
+      "series": "amp"
+    },
+    {
+      "condition": 4.0,
+      "r2_in_sample": 0.9440801899349677,
+      "r2_left_out": 0.9421520771276816,
+      "series": "amp_relax"
+    }
+  ],
+  "nuisance": {
+    "baseline_ratio_A_over_B": 4.524590163934426,
+    "fitted_output_gain_B_over_A": 1.970351888697643,
+    "fitted_rate_ratio_B_over_A": 0.27867780750811005,
+    "note": "Fig 2c at 8 us and Fig 2d at 4.0 V use the same nominal protocol (4 V, 100 us, 8 us)",
+    "run_A_I0_A": 1.38e-05,
+    "run_A_I200_over_I0": 1.4927536231884058,
+    "run_B_I0_A": 3.05e-06,
+    "run_B_I200_over_I0": 1.8262295081967213
+  },
+  "parameters_at_bound": [
+    0,
+    1,
+    9
+  ],
+  "params": {
+    "alpha": 0.9807564924788702,
+    "k0": 5411.529170809345,
+    "k1": 1576.53503142856,
+    "k2": 2.652993183440163,
+    "m0": 0.3697841280625042,
+    "m1": 0.10772881630232677,
+    "m2": 0.13940133347494657,
+    "tau0": 2.984374356862059e-05,
+    "tau1": 0.0006140265563614089,
+    "tau2": 0.17352169471844395,
+    "v_th": 0.5000000000000001,
+    "x0": 0.0
+  },
+  "pulse_width_s": 0.0001,
+  "selection": {
+    "1": {
+      "aic": -31443.21326538092,
+      "median_curve_r2": -0.738084568144305,
+      "min_curve_r2": -71.7378268208842,
+      "parameters": 7,
+      "rss": 23.467546381883476
+    },
+    "2": {
+      "aic": -43433.45186461857,
+      "median_curve_r2": 0.737111686591096,
+      "min_curve_r2": -2.688983225509131,
+      "parameters": 10,
+      "rss": 2.8848512190768782
+    },
+    "3": {
+      "aic": -47577.98207259037,
+      "median_curve_r2": 0.8460693159698841,
+      "min_curve_r2": -0.27263137781150815,
+      "parameters": 13,
+      "rss": 1.3968735039828788
+    }
+  },
+  "x": [
+    0.6989700043360187,
+    0.6989700043360187,
+    -2.186932527162813,
+    -0.43205173363872434,
+    -0.9676681120487411,
+    -0.8557330718761644,
+    -4.525146700327377,
+    1.3133338549079765,
+    2.451166626030392,
+    0.5000000000000001,
+    0.9807564924788702,
+    -0.5548976149268865,
+    0.29454379452317764
+  ]
+}

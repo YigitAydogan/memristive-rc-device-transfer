@@ -1,0 +1,95 @@
+2026-10-20 14:55:05 | ====================================================================================================
+2026-10-20 14:55:05 | MEMRISTIVE RESERVOIR PORTABILITY v9 GENERALITY | root=/content/drive/MyDrive/memristive_device_generalization/portability_v9_generality | smoke=False
+2026-10-20 14:55:05 | Drive mounting is intentionally not performed by this script.
+2026-10-20 14:55:06 | Multi-device reservoir: 4 devices at (gain, duration fraction) [(1.0, 0.25), (0.65, 0.25), (1.0, 0.06), (0.65, 1.0)]
+2026-10-20 14:55:45 | NARMA10 seed 44: 0.6 min | cross gap moment=0.502 paired=0.155 teacher=0.072
+2026-10-20 14:56:20 | NARMA10 seed 55: 0.6 min | cross gap moment=0.522 paired=0.172 teacher=0.096
+2026-10-20 14:56:56 | NARMA10 seed 66: 0.6 min | cross gap moment=0.506 paired=0.166 teacher=0.089
+2026-10-20 14:57:29 | MackeyGlass seed 44: 0.6 min | cross gap moment=0.703 paired=-0.014 teacher=0.056
+2026-10-20 14:58:05 | MackeyGlass seed 55: 0.6 min | cross gap moment=0.468 paired=0.009 teacher=0.062
+2026-10-20 14:58:40 | MackeyGlass seed 66: 0.6 min | cross gap moment=0.629 paired=-0.102 teacher=0.026
+2026-10-20 14:58:49 | Coffee seed 44: 0.2 min | cross gap moment=0.554 paired=0.149
+2026-10-20 14:58:57 | Coffee seed 55: 0.1 min | cross gap moment=0.513 paired=0.154
+2026-10-20 14:59:06 | Coffee seed 66: 0.2 min | cross gap moment=0.379 paired=0.110
+2026-10-20 14:59:12 | ECG200 seed 44: 0.1 min | cross gap moment=0.416 paired=0.002
+2026-10-20 14:59:17 | ECG200 seed 55: 0.1 min | cross gap moment=0.346 paired=0.040
+2026-10-20 14:59:22 | ECG200 seed 66: 0.1 min | cross gap moment=0.312 paired=0.029
+2026-10-20 14:59:30 | GunPoint seed 44: 0.1 min | cross gap moment=0.403 paired=-0.073
+2026-10-20 14:59:36 | GunPoint seed 55: 0.1 min | cross gap moment=0.343 paired=-0.069
+2026-10-20 14:59:43 | GunPoint seed 66: 0.1 min | cross gap moment=0.398 paired=-0.074
+2026-10-20 14:59:51 | Plane seed 44: 0.1 min | cross gap moment=0.679 paired=0.022
+2026-10-20 14:59:57 | Plane seed 55: 0.1 min | cross gap moment=0.604 paired=0.019
+2026-10-20 15:00:05 | Plane seed 66: 0.1 min | cross gap moment=0.548 paired=0.010
+2026-10-20 15:00:12 | SyntheticControl seed 44: 0.1 min | cross gap moment=0.676 paired=0.016
+2026-10-20 15:00:21 | SyntheticControl seed 55: 0.1 min | cross gap moment=0.656 paired=0.028
+2026-10-20 15:00:29 | SyntheticControl seed 66: 0.1 min | cross gap moment=0.726 paired=0.042
+2026-10-20 15:00:34 | SonyAIBORobotSurface1 seed 44: 0.1 min | cross gap moment=0.417 paired=0.069
+2026-10-20 15:00:39 | SonyAIBORobotSurface1 seed 55: 0.1 min | cross gap moment=0.293 paired=0.001
+2026-10-20 15:00:44 | SonyAIBORobotSurface1 seed 66: 0.1 min | cross gap moment=0.352 paired=0.075
+2026-10-20 15:00:55 | Lightning7 seed 44: 0.2 min | cross gap moment=0.332 paired=-0.000
+2026-10-20 15:01:06 | Lightning7 seed 55: 0.2 min | cross gap moment=0.408 paired=0.032
+2026-10-20 15:01:16 | Lightning7 seed 66: 0.2 min | cross gap moment=0.388 paired=-0.011
+2026-10-20 15:01:29 | Meat seed 44: 0.2 min | cross gap moment=0.400 paired=0.050
+2026-10-20 15:01:41 | Meat seed 55: 0.2 min | cross gap moment=0.462 paired=-0.000
+2026-10-20 15:01:54 | Meat seed 66: 0.2 min | cross gap moment=0.537 paired=0.025
+2026-10-20 15:02:03 | Trace seed 44: 0.1 min | cross gap moment=0.674 paired=0.036
+2026-10-20 15:02:12 | Trace seed 55: 0.2 min | cross gap moment=0.591 paired=0.025
+2026-10-20 15:02:23 | Trace seed 66: 0.2 min | cross gap moment=0.505 paired=0.038
+2026-10-20 15:02:38 | ProximalPhalanxOutlineCorrect seed 44: 0.2 min | cross gap moment=0.385 paired=0.009
+2026-10-20 15:02:52 | ProximalPhalanxOutlineCorrect seed 55: 0.2 min | cross gap moment=0.335 paired=-0.043
+2026-10-20 15:03:07 | ProximalPhalanxOutlineCorrect seed 66: 0.2 min | cross gap moment=0.299 paired=-0.025
+2026-10-20 15:03:21 | Ham seed 44: 0.2 min | cross gap moment=0.185 paired=-0.059
+2026-10-20 15:03:34 | Ham seed 55: 0.2 min | cross gap moment=0.204 paired=-0.022
+2026-10-20 15:03:48 | Ham seed 66: 0.2 min | cross gap moment=0.107 paired=-0.117
+2026-10-20 15:03:54 | MoteStrain seed 44: 0.1 min | cross gap moment=0.204 paired=-0.002
+2026-10-20 15:04:01 | MoteStrain seed 55: 0.1 min | cross gap moment=0.302 paired=0.009
+2026-10-20 15:04:08 | MoteStrain seed 66: 0.1 min | cross gap moment=0.206 paired=-0.003
+2026-10-20 15:04:19 | MedicalImages seed 44: 0.2 min | cross gap moment=0.292 paired=0.065
+2026-10-20 15:04:30 | MedicalImages seed 55: 0.2 min | cross gap moment=0.348 paired=0.089
+2026-10-20 15:04:42 | MedicalImages seed 66: 0.2 min | cross gap moment=0.291 paired=0.079
+2026-10-20 15:04:59 | Fish seed 44: 0.3 min | cross gap moment=0.355 paired=0.074
+2026-10-20 15:05:15 | Fish seed 55: 0.3 min | cross gap moment=0.423 paired=0.078
+2026-10-20 15:05:33 | Fish seed 66: 0.3 min | cross gap moment=0.369 paired=0.053
+2026-10-20 15:05:49 | OSULeaf seed 44: 0.3 min | cross gap moment=0.282 paired=0.021
+2026-10-20 15:06:05 | OSULeaf seed 55: 0.3 min | cross gap moment=0.243 paired=0.018
+2026-10-20 15:06:21 | OSULeaf seed 66: 0.3 min | cross gap moment=0.215 paired=0.004
+2026-10-20 15:06:40 | Strawberry seed 44: 0.3 min | cross gap moment=0.394 paired=0.075
+2026-10-20 15:07:01 | Strawberry seed 55: 0.3 min | cross gap moment=0.502 paired=0.121
+2026-10-20 15:07:22 | Strawberry seed 66: 0.4 min | cross gap moment=0.423 paired=0.089
+2026-10-20 15:07:39 | CricketX seed 44: 0.3 min | cross gap moment=0.307 paired=0.016
+2026-10-20 15:07:57 | CricketX seed 55: 0.3 min | cross gap moment=0.332 paired=0.016
+2026-10-20 15:08:15 | CricketX seed 66: 0.3 min | cross gap moment=0.315 paired=0.017
+2026-10-20 15:08:37 | Earthquakes seed 44: 0.4 min | cross gap moment=0.180 paired=0.027
+2026-10-20 15:08:57 | Earthquakes seed 55: 0.3 min | cross gap moment=0.152 paired=0.014
+2026-10-20 15:09:17 | Earthquakes seed 66: 0.3 min | cross gap moment=0.056 paired=-0.005
+2026-10-20 15:09:37 | FaceAll seed 44: 0.3 min | cross gap moment=0.636 paired=0.052
+2026-10-20 15:09:56 | FaceAll seed 55: 0.3 min | cross gap moment=0.590 paired=0.044
+2026-10-20 15:10:16 | FaceAll seed 66: 0.3 min | cross gap moment=0.593 paired=0.045
+2026-10-20 15:10:31 | Symbols seed 44: 0.3 min | cross gap moment=0.462 paired=-0.030
+2026-10-20 15:10:48 | Symbols seed 55: 0.3 min | cross gap moment=0.449 paired=-0.057
+2026-10-20 15:11:04 | Symbols seed 66: 0.3 min | cross gap moment=0.455 paired=-0.066
+2026-10-20 15:11:34 | RefrigerationDevices seed 44: 0.5 min | cross gap moment=0.136 paired=-0.018
+2026-10-20 15:12:03 | RefrigerationDevices seed 55: 0.5 min | cross gap moment=0.110 paired=-0.016
+2026-10-20 15:12:33 | RefrigerationDevices seed 66: 0.5 min | cross gap moment=0.158 paired=-0.022
+2026-10-20 15:13:03 | TwoPatterns seed 44: 0.5 min | cross gap moment=0.625 paired=0.047
+2026-10-20 15:13:33 | TwoPatterns seed 55: 0.5 min | cross gap moment=0.569 paired=0.051
+2026-10-20 15:14:03 | TwoPatterns seed 66: 0.5 min | cross gap moment=0.606 paired=0.059
+2026-10-20 15:14:27 | ECG5000 seed 44: 0.4 min | cross gap moment=0.324 paired=0.137
+2026-10-20 15:14:49 | ECG5000 seed 55: 0.4 min | cross gap moment=0.275 paired=0.109
+2026-10-20 15:15:11 | ECG5000 seed 66: 0.4 min | cross gap moment=0.306 paired=0.134
+2026-10-20 15:15:48 | Wafer seed 44: 0.6 min | cross gap moment=0.726 paired=0.085
+2026-10-20 15:16:24 | Wafer seed 55: 0.6 min | cross gap moment=0.723 paired=0.054
+2026-10-20 15:17:01 | Wafer seed 66: 0.6 min | cross gap moment=0.692 paired=0.084
+2026-10-20 15:17:33 | Yoga seed 44: 0.5 min | cross gap moment=0.432 paired=0.018
+2026-10-20 15:18:06 | Yoga seed 55: 0.5 min | cross gap moment=0.399 paired=0.008
+2026-10-20 15:18:39 | Yoga seed 66: 0.6 min | cross gap moment=0.445 paired=0.022
+2026-10-20 15:19:21 | UWaveGestureLibraryX seed 44: 0.7 min | cross gap moment=0.445 paired=0.022
+2026-10-20 15:20:02 | UWaveGestureLibraryX seed 55: 0.7 min | cross gap moment=0.447 paired=0.015
+2026-10-20 15:20:46 | UWaveGestureLibraryX seed 66: 0.7 min | cross gap moment=0.462 paired=0.023
+2026-10-20 15:22:04 | FordA seed 44: 1.3 min | cross gap moment=0.104 paired=0.057
+2026-10-20 15:23:21 | FordA seed 55: 1.3 min | cross gap moment=0.100 paired=0.048
+2026-10-20 15:24:37 | FordA seed 66: 1.3 min | cross gap moment=0.093 paired=0.037
+2026-10-20 15:27:03 | StarLightCurves seed 44: 2.4 min | cross gap moment=0.641 paired=0.058
+2026-10-20 15:29:31 | StarLightCurves seed 55: 2.5 min | cross gap moment=0.613 paired=0.053
+2026-10-20 15:31:58 | StarLightCurves seed 66: 2.4 min | cross gap moment=0.628 paired=0.060
+2026-10-20 15:32:04 | Done in 37.0 min. Tables: /content/drive/MyDrive/memristive_device_generalization/portability_v9_generality/tables | Figures: /content/drive/MyDrive/memristive_device_generalization/portability_v9_generality/figures

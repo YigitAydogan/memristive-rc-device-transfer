@@ -1,0 +1,86 @@
+{
+  "bootstrap_win_fraction": 0.984,
+  "chosen_from": "/content/drive/MyDrive/memristive_device_generalization/portability_v2/tables/operating_point_landscape_full.csv",
+  "chosen_utc": "2026-10-20T11:05:38.663143+00:00",
+  "family_defaults": {
+    "DF": {
+      "frac": 1.0,
+      "gain": 1.0,
+      "op": 35
+    },
+    "DN": {
+      "frac": 0.5,
+      "gain": 1.0,
+      "op": 34
+    },
+    "LD": {
+      "frac": 0.5,
+      "gain": 0.65,
+      "op": 22
+    },
+    "VT": {
+      "frac": 0.125,
+      "gain": 1.0,
+      "op": 32
+    },
+    "VV": {
+      "frac": 0.25,
+      "gain": 0.65,
+      "op": 21
+    },
+    "ZH": {
+      "frac": 0.5,
+      "gain": 0.35,
+      "op": 10
+    }
+  },
+  "frac": 0.25,
+  "gain": 1.0,
+  "near_optimal_ops": [
+    {
+      "frac": 0.25,
+      "gain": 1.0,
+      "mean_rank_v2": 0.7407621742112482,
+      "op": 33
+    }
+  ],
+  "op": 33,
+  "per_family": {
+    "DF": {
+      "drive_voltage_at_u_minus1": -2.5,
+      "drive_voltage_at_u_plus1": 2.5,
+      "duration": 7.5e-07,
+      "duration_unit": "s"
+    },
+    "DN": {
+      "drive_voltage_at_u_minus1": 0.0,
+      "drive_voltage_at_u_plus1": 0.8,
+      "duration": 295.0,
+      "duration_unit": "ticks"
+    },
+    "LD": {
+      "drive_voltage_at_u_minus1": -0.5,
+      "drive_voltage_at_u_plus1": 0.5,
+      "duration": 0.5700000000000001,
+      "duration_unit": "s"
+    },
+    "VT": {
+      "drive_voltage_at_u_minus1": -0.5,
+      "drive_voltage_at_u_plus1": 0.5,
+      "duration": 0.029025000000000002,
+      "duration_unit": "s"
+    },
+    "VV": {
+      "drive_voltage_at_u_minus1": 0.0,
+      "drive_voltage_at_u_plus1": 3.0,
+      "duration": 0.00014000000000000001,
+      "duration_unit": "s"
+    },
+    "ZH": {
+      "drive_voltage_at_u_minus1": -3.0,
+      "drive_voltage_at_u_plus1": 3.0,
+      "duration": 1.0,
+      "duration_unit": "ticks"
+    }
+  }
+}

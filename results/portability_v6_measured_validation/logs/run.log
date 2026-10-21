@@ -1,0 +1,96 @@
+2026-10-20 12:08:03 | ====================================================================================================
+2026-10-20 12:08:03 | MEMRISTIVE RESERVOIR PORTABILITY v6 MEASURED VALIDATION | root=/content/drive/MyDrive/memristive_device_generalization/portability_v6_measured_validation | smoke=False
+2026-10-20 12:08:03 | Drive mounting is intentionally not performed by this script.
+2026-10-20 12:08:06 | TiOx data: /content/drive/MyDrive/memristive_device_generalization/portability_v6_measured_validation/data/tiox | mSiO2 data: /content/drive/MyDrive/memristive_device_generalization/data/measured/Dataset_2.xlsx
+2026-10-20 12:08:06 | Pulse width 100 us, 4 V interval series, 8 us amplitude series, 0.1 V reads (Methods of Wang et al. 2026)
+2026-10-20 12:08:08 | Fitting the 1-timescale volatile model to the TiOx data ...
+2026-10-20 12:08:22 | Fitting the 2-timescale volatile model to the TiOx data ...
+2026-10-20 12:08:44 | Fitting the 3-timescale volatile model to the TiOx data ...
+2026-10-20 12:09:23 | Leave-one-condition-out validation ...
+2026-10-20 12:09:29 | TX interface: switching time 9e-06 s, recovery 3.14e-06 s
+2026-10-20 12:09:29 | Universal operating point: op 33 (gain 1.0, duration fraction 0.25)
+2026-10-20 12:09:41 | Coffee seed 44: 0.1 min | TiOx cross gap moment=0.426 paired=-0.005 pseudo=0.000
+2026-10-20 12:09:44 | Coffee seed 55: 0.1 min | TiOx cross gap moment=0.197 paired=-0.144 pseudo=-0.144
+2026-10-20 12:09:48 | Coffee seed 66: 0.1 min | TiOx cross gap moment=0.326 paired=0.062 pseudo=0.105
+2026-10-20 12:09:52 | ECG200 seed 44: 0.1 min | TiOx cross gap moment=0.188 paired=0.023 pseudo=-0.010
+2026-10-20 12:09:55 | ECG200 seed 55: 0.1 min | TiOx cross gap moment=0.261 paired=0.087 pseudo=0.061
+2026-10-20 12:09:58 | ECG200 seed 66: 0.0 min | TiOx cross gap moment=0.207 paired=0.063 pseudo=0.039
+2026-10-20 12:10:04 | GunPoint seed 44: 0.1 min | TiOx cross gap moment=0.219 paired=-0.185 pseudo=-0.060
+2026-10-20 12:10:07 | GunPoint seed 55: 0.1 min | TiOx cross gap moment=0.144 paired=0.012 pseudo=0.000
+2026-10-20 12:10:11 | GunPoint seed 66: 0.1 min | TiOx cross gap moment=0.148 paired=-0.006 pseudo=0.028
+2026-10-20 12:10:17 | Plane seed 44: 0.1 min | TiOx cross gap moment=0.310 paired=0.035 pseudo=0.000
+2026-10-20 12:10:21 | Plane seed 55: 0.1 min | TiOx cross gap moment=0.263 paired=0.021 pseudo=0.000
+2026-10-20 12:10:25 | Plane seed 66: 0.1 min | TiOx cross gap moment=0.379 paired=0.031 pseudo=0.000
+2026-10-20 12:10:32 | SyntheticControl seed 44: 0.1 min | TiOx cross gap moment=0.408 paired=0.042 pseudo=0.042
+2026-10-20 12:10:39 | SyntheticControl seed 55: 0.1 min | TiOx cross gap moment=0.378 paired=0.012 pseudo=0.032
+2026-10-20 12:10:43 | SyntheticControl seed 66: 0.1 min | TiOx cross gap moment=0.378 paired=0.036 pseudo=0.032
+2026-10-20 12:10:48 | SonyAIBORobotSurface1 seed 44: 0.1 min | TiOx cross gap moment=0.299 paired=0.111 pseudo=0.000
+2026-10-20 12:10:50 | SonyAIBORobotSurface1 seed 55: 0.0 min | TiOx cross gap moment=0.239 paired=0.063 pseudo=0.000
+2026-10-20 12:10:53 | SonyAIBORobotSurface1 seed 66: 0.0 min | TiOx cross gap moment=0.394 paired=0.075 pseudo=0.000
+2026-10-20 12:11:01 | Lightning7 seed 44: 0.1 min | TiOx cross gap moment=0.300 paired=0.031 pseudo=0.037
+2026-10-20 12:11:06 | Lightning7 seed 55: 0.1 min | TiOx cross gap moment=0.252 paired=-0.011 pseudo=-0.006
+2026-10-20 12:11:12 | Lightning7 seed 66: 0.1 min | TiOx cross gap moment=0.323 paired=0.025 pseudo=0.021
+2026-10-20 12:11:22 | Meat seed 44: 0.2 min | TiOx cross gap moment=0.200 paired=-0.025 pseudo=0.025
+2026-10-20 12:11:28 | Meat seed 55: 0.1 min | TiOx cross gap moment=0.313 paired=-0.012 pseudo=0.025
+2026-10-20 12:11:34 | Meat seed 66: 0.1 min | TiOx cross gap moment=0.087 paired=-0.025 pseudo=0.000
+2026-10-20 12:11:43 | Trace seed 44: 0.2 min | TiOx cross gap moment=0.320 paired=0.052 pseudo=0.011
+2026-10-20 12:11:49 | Trace seed 55: 0.1 min | TiOx cross gap moment=0.402 paired=0.036 pseudo=0.049
+2026-10-20 12:11:54 | Trace seed 66: 0.1 min | TiOx cross gap moment=0.240 paired=0.027 pseudo=0.050
+2026-10-20 12:12:10 | ProximalPhalanxOutlineCorrect seed 44: 0.3 min | TiOx cross gap moment=0.217 paired=0.022 pseudo=-0.000
+2026-10-20 12:12:22 | ProximalPhalanxOutlineCorrect seed 55: 0.2 min | TiOx cross gap moment=0.243 paired=0.009 pseudo=-0.005
+2026-10-20 12:12:35 | ProximalPhalanxOutlineCorrect seed 66: 0.2 min | TiOx cross gap moment=0.231 paired=0.007 pseudo=-0.004
+2026-10-20 12:12:48 | Ham seed 44: 0.2 min | TiOx cross gap moment=0.273 paired=-0.070 pseudo=-0.010
+2026-10-20 12:12:56 | Ham seed 55: 0.1 min | TiOx cross gap moment=0.242 paired=-0.003 pseudo=0.008
+2026-10-20 12:13:04 | Ham seed 66: 0.1 min | TiOx cross gap moment=0.102 paired=-0.045 pseudo=-0.014
+2026-10-20 12:13:11 | MoteStrain seed 44: 0.1 min | TiOx cross gap moment=0.301 paired=-0.028 pseudo=0.000
+2026-10-20 12:13:15 | MoteStrain seed 55: 0.1 min | TiOx cross gap moment=0.177 paired=-0.146 pseudo=0.000
+2026-10-20 12:13:19 | MoteStrain seed 66: 0.1 min | TiOx cross gap moment=0.274 paired=-0.143 pseudo=0.000
+2026-10-20 12:13:31 | MedicalImages seed 44: 0.2 min | TiOx cross gap moment=0.238 paired=0.056 pseudo=0.055
+2026-10-20 12:13:40 | MedicalImages seed 55: 0.1 min | TiOx cross gap moment=0.219 paired=0.023 pseudo=0.015
+2026-10-20 12:13:49 | MedicalImages seed 66: 0.2 min | TiOx cross gap moment=0.219 paired=0.042 pseudo=0.059
+2026-10-20 12:14:05 | Fish seed 44: 0.3 min | TiOx cross gap moment=0.298 paired=0.040 pseudo=0.043
+2026-10-20 12:14:15 | Fish seed 55: 0.2 min | TiOx cross gap moment=0.298 paired=0.054 pseudo=0.049
+2026-10-20 12:14:26 | Fish seed 66: 0.2 min | TiOx cross gap moment=0.255 paired=0.034 pseudo=0.042
+2026-10-20 12:14:42 | OSULeaf seed 44: 0.3 min | TiOx cross gap moment=0.199 paired=0.035 pseudo=0.068
+2026-10-20 12:14:53 | OSULeaf seed 55: 0.2 min | TiOx cross gap moment=0.128 paired=-0.046 pseudo=0.020
+2026-10-20 12:15:03 | OSULeaf seed 66: 0.2 min | TiOx cross gap moment=0.147 paired=0.022 pseudo=0.071
+2026-10-20 12:15:25 | Strawberry seed 44: 0.4 min | TiOx cross gap moment=0.349 paired=0.035 pseudo=0.042
+2026-10-20 12:15:44 | Strawberry seed 55: 0.3 min | TiOx cross gap moment=0.348 paired=0.029 pseudo=0.069
+2026-10-20 12:16:01 | Strawberry seed 66: 0.3 min | TiOx cross gap moment=0.343 paired=0.042 pseudo=0.067
+2026-10-20 12:16:22 | CricketX seed 44: 0.4 min | TiOx cross gap moment=0.203 paired=0.017 pseudo=0.063
+2026-10-20 12:16:36 | CricketX seed 55: 0.2 min | TiOx cross gap moment=0.174 paired=0.024 pseudo=0.045
+2026-10-20 12:16:50 | CricketX seed 66: 0.2 min | TiOx cross gap moment=0.202 paired=0.013 pseudo=0.033
+2026-10-20 12:17:10 | Earthquakes seed 44: 0.3 min | TiOx cross gap moment=0.185 paired=0.003 pseudo=0.029
+2026-10-20 12:17:23 | Earthquakes seed 55: 0.2 min | TiOx cross gap moment=0.123 paired=0.066 pseudo=0.029
+2026-10-20 12:17:35 | Earthquakes seed 66: 0.2 min | TiOx cross gap moment=-0.001 paired=0.044 pseudo=-0.017
+2026-10-20 12:17:57 | FaceAll seed 44: 0.4 min | TiOx cross gap moment=0.418 paired=0.057 pseudo=0.050
+2026-10-20 12:18:12 | FaceAll seed 55: 0.3 min | TiOx cross gap moment=0.431 paired=0.085 pseudo=0.046
+2026-10-20 12:18:27 | FaceAll seed 66: 0.2 min | TiOx cross gap moment=0.438 paired=0.095 pseudo=0.043
+2026-10-20 12:18:42 | Symbols seed 44: 0.3 min | TiOx cross gap moment=0.180 paired=-0.006 pseudo=0.000
+2026-10-20 12:18:52 | Symbols seed 55: 0.2 min | TiOx cross gap moment=0.185 paired=-0.019 pseudo=0.000
+2026-10-20 12:19:01 | Symbols seed 66: 0.2 min | TiOx cross gap moment=0.143 paired=-0.017 pseudo=0.005
+2026-10-20 12:19:31 | RefrigerationDevices seed 44: 0.5 min | TiOx cross gap moment=0.304 paired=0.028 pseudo=0.058
+2026-10-20 12:19:49 | RefrigerationDevices seed 55: 0.3 min | TiOx cross gap moment=0.218 paired=0.008 pseudo=0.034
+2026-10-20 12:20:09 | RefrigerationDevices seed 66: 0.3 min | TiOx cross gap moment=0.290 paired=0.026 pseudo=0.082
+2026-10-20 12:20:44 | TwoPatterns seed 44: 0.6 min | TiOx cross gap moment=0.102 paired=0.005 pseudo=0.038
+2026-10-20 12:21:14 | TwoPatterns seed 55: 0.5 min | TiOx cross gap moment=0.177 paired=0.041 pseudo=0.061
+2026-10-20 12:21:49 | TwoPatterns seed 66: 0.6 min | TiOx cross gap moment=0.101 paired=0.041 pseudo=0.045
+2026-10-20 12:22:26 | ECG5000 seed 44: 0.6 min | TiOx cross gap moment=0.243 paired=0.093 pseudo=-0.003
+2026-10-20 12:22:53 | ECG5000 seed 55: 0.5 min | TiOx cross gap moment=0.223 paired=0.097 pseudo=0.018
+2026-10-20 12:23:21 | ECG5000 seed 66: 0.5 min | TiOx cross gap moment=0.239 paired=0.089 pseudo=0.020
+2026-10-20 12:24:16 | Wafer seed 44: 0.9 min | TiOx cross gap moment=0.396 paired=0.009 pseudo=0.119
+2026-10-20 12:24:56 | Wafer seed 55: 0.7 min | TiOx cross gap moment=0.452 paired=-0.024 pseudo=0.146
+2026-10-20 12:25:39 | Wafer seed 66: 0.7 min | TiOx cross gap moment=0.341 paired=-0.050 pseudo=0.114
+2026-10-20 12:26:12 | Yoga seed 44: 0.5 min | TiOx cross gap moment=0.334 paired=0.017 pseudo=0.074
+2026-10-20 12:26:34 | Yoga seed 55: 0.4 min | TiOx cross gap moment=0.289 paired=0.011 pseudo=0.055
+2026-10-20 12:26:56 | Yoga seed 66: 0.4 min | TiOx cross gap moment=0.288 paired=-0.009 pseudo=0.046
+2026-10-20 12:27:38 | UWaveGestureLibraryX seed 44: 0.7 min | TiOx cross gap moment=0.095 paired=-0.000 pseudo=0.019
+2026-10-20 12:28:09 | UWaveGestureLibraryX seed 55: 0.5 min | TiOx cross gap moment=0.072 paired=0.001 pseudo=0.023
+2026-10-20 12:28:40 | UWaveGestureLibraryX seed 66: 0.5 min | TiOx cross gap moment=0.078 paired=-0.001 pseudo=0.022
+2026-10-20 12:29:49 | FordA seed 44: 1.2 min | TiOx cross gap moment=0.032 paired=0.031 pseudo=0.018
+2026-10-20 12:30:37 | FordA seed 55: 0.8 min | TiOx cross gap moment=0.018 paired=0.018 pseudo=0.014
+2026-10-20 12:31:25 | FordA seed 66: 0.8 min | TiOx cross gap moment=0.002 paired=0.008 pseudo=0.009
+2026-10-20 12:34:04 | StarLightCurves seed 44: 2.6 min | TiOx cross gap moment=0.164 paired=0.035 pseudo=0.029
+2026-10-20 12:35:56 | StarLightCurves seed 55: 1.9 min | TiOx cross gap moment=0.086 paired=0.025 pseudo=0.023
+2026-10-20 12:37:50 | StarLightCurves seed 66: 1.9 min | TiOx cross gap moment=0.122 paired=0.044 pseudo=0.042
+2026-10-20 12:38:00 | Done in 30.0 min. Tables: /content/drive/MyDrive/memristive_device_generalization/portability_v6_measured_validation/tables | Figures: /content/drive/MyDrive/memristive_device_generalization/portability_v6_measured_validation/figures

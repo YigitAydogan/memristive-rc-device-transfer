@@ -133,41 +133,14 @@ rng = np.random.default_rng(3)
 U = np.clip(np.cumsum(rng.normal(0, 0.35, 60)) * 0.25 + 0.6 * np.sin(np.linspace(0, 4 * np.pi, 60)), -1, 1)[None, :]
 fams = eng.FAMILY_CODES + ["TX"]
 names = ["Input"] + ["TiOx" if f == "TX" else f for f in fams]
-fig = plt.figure(figsize=(W_FULL, 8.2))
-gs = fig.add_gridspec(2, 1, height_ratios=[1.0, 1.25], hspace=0.12)
+fig = plt.figure(figsize=(W_FULL, 10.0))
+gs = fig.add_gridspec(2, 1, height_ratios=[3.55, 5.9], hspace=0.08)
 ax0 = fig.add_subplot(gs[0, 0])
-sub = gs[1, 0].subgridspec(len(names), 1, hspace=0.45)
+sub = gs[1, 0].subgridspec(len(names), 1, hspace=0.35)
 axs = [fig.add_subplot(sub[k, 0]) for k in range(len(names))]
-ax0.set_xlim(-0.08, 10.08); ax0.set_ylim(-0.05, 5.0); ax0.axis("off")
-
-
-def box(ax, x, y, w, h, text, fc, fs=10.0, bold=False):
-    ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.02,rounding_size=0.10", fc=fc, ec="black", lw=0.9))
-    ax.text(x + w / 2, y + h / 2, text, ha="center", va="center", fontsize=fs, fontweight="bold" if bold else "normal")
-
-
-def arrow(ax, x0, y0, x1, y1, col="black", ls="-"):
-    ax.add_patch(FancyArrowPatch((x0, y0), (x1, y1), arrowstyle="-|>", mutation_scale=10, lw=1.0, color=col, linestyle=ls,
-                                 shrinkA=0, shrinkB=0))
-
-
-box(ax0, 0.0, 4.0, 1.5, 0.9, "Input\nsequence", "#f0f0f0")
-box(ax0, 2.0, 4.0, 1.5, 0.9, "Source\ndevice", "#c6dbef")
-box(ax0, 4.0, 4.0, 1.4, 0.9, "Features", "#f0f0f0")
-box(ax0, 5.9, 4.0, 4.1, 0.9, "Source readout, trained\nwith labels", "#fdd0a2")
-arrow(ax0, 1.5, 4.45, 2.0, 4.45); arrow(ax0, 3.5, 4.45, 4.0, 4.45); arrow(ax0, 5.4, 4.45, 5.9, 4.45)
-box(ax0, 2.0, 2.35, 1.5, 0.9, "Target\ndevice", "#c7e9c0")
-box(ax0, 4.0, 2.35, 1.4, 0.9, "Features", "#f0f0f0")
-arrow(ax0, 0.75, 4.0, 0.75, 2.8); arrow(ax0, 0.75, 2.8, 2.0, 2.8); arrow(ax0, 3.5, 2.8, 4.0, 2.8)
-box(ax0, 5.9, 2.9, 4.1, 0.7, "Zero shot: reuse the readout", "#fdd0a2")
-box(ax0, 5.9, 2.0, 4.1, 0.7, "Moment matching: standardize, reuse", "#fdd0a2")
-arrow(ax0, 5.4, 3.0, 5.9, 3.25); arrow(ax0, 5.4, 2.6, 5.9, 2.35)
-box(ax0, 0.0, 0.05, 10.0, 1.6, "", "#f3eef8")
-ax0.text(0.2, 1.3, "Teacher labels", fontsize=10.5, fontweight="bold", va="center", color="#54278f")
-ax0.text(0.2, 0.62, "Unlabeled task inputs drive both devices. The source device and its readout label them,\n"
-                    "and a new target readout is fitted to those labels. No target labels are used.", fontsize=10, va="center")
-arrow(ax0, 7.95, 4.0, 7.95, 3.6, "#7b4fa0", "--")
-ax0.add_patch(FancyArrowPatch((7.95, 2.0), (7.95, 1.65), arrowstyle="-|>", mutation_scale=10, lw=1.0, color="#7b4fa0", linestyle="--"))
+diagram = plt.imread(str(OUT / "fig1a_diagram.png"))
+ax0.imshow(diagram, interpolation="lanczos")
+ax0.axis("off")
 traces = [U[0]]
 for f in fams:
     traces.append(eng.simulate(eng.nominal_instance(f), U, [u], "traj", ("fig1", 0))[0, :, 0].astype(float))
@@ -192,6 +165,17 @@ fig.subplots_adjust(left=0.1, right=0.92, top=0.97, bottom=0.07)
 fig.canvas.draw()
 rend = fig.canvas.get_renderer(); inv = fig.transFigure.inverted()
 xL = inv.transform((yl.get_window_extent(rend).x0, 0))[0]
+# Align the outer box of the diagram (teacher-label block, border centres at image columns BL and BR)
+# with the left and right spines of the panel b axes.
+BL, BR = 134.5, 7669.5
+pb = axs[0].get_position()
+scale = (pb.x1 - pb.x0) / (BR - BL)                      # figure-width fraction per image pixel
+w_new = diagram.shape[1] * scale
+h_new = diagram.shape[0] * scale * fig.get_figwidth() / fig.get_figheight()
+p0 = ax0.get_position()
+ax0.set_position([pb.x0 - BL * scale, p0.y1 - h_new, w_new, h_new])
+ax0.set_aspect("auto")
+fig.canvas.draw()
 fig.text(xL, ax0.get_position().y1 + 0.005, "a", fontsize=13, fontweight="bold", ha="left", va="bottom")
 fig.text(xL, axs[0].get_position().y1 + 0.008, "b", fontsize=13, fontweight="bold", ha="left", va="bottom")
 save(fig, "fig1_overview")

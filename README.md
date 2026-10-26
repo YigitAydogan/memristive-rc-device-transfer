@@ -34,13 +34,13 @@ earlier ones, so run them in this order.
 |---|---|---|
 | `memristive_portability_v2.py` | Development experiments: 18 datasets, device draws from seeds 11, 22, 33; operating-point landscape, absolute performance, baselines | Table 5, figure 6a |
 | `memristive_portability_v3_diagnostics.py` | Development diagnostics: probe maps, spread sweep, feature correlation, readout cosine | Figure 4a |
-| `memristive_portability_v4_main_evaluation.py` | Main evaluation: 28 datasets, new device draws from seeds 44, 55, 66, the nine prespecified hypotheses H1 to H9 | Figures 2 to 5, table 6 |
+| `memristive_portability_v4_main_evaluation.py` | Main evaluation: 28 datasets, new device draws from seeds 44, 55, 66, the nine prespecified hypotheses H1 to H9 | Figures 2, 3, 4b, 4c and 5, tables 6 and 7 |
 | `memristive_portability_v5_operating_point.py` | Universal normalized operating point chosen on the development datasets | Figure 6 |
 | `memristive_portability_v6_measured_validation.py` | TiO<sub>x</sub> calibration, 3-bit check, measured noise, TX as source and target | Figures 7 and 8a, 8b |
 | `memristive_portability_v7_measured_pair.py` | Transfer between the models of the two TiO<sub>x</sub> measurement series | Figure 8c |
 | `memristive_portability_v8_corrected_correspondence.py` | Repeatability-corrected correspondence across noise levels | Figure 9 |
 | `memristive_portability_v9_generality.py` | Multi-device reservoirs, NARMA-10 and Mackey-Glass forecasting | Figure 10 |
-| `memristive_portability_v10_additional_analyses.py` | Teacher-label data budget, source-accuracy analysis, robustness over all draws, decision rule, separate TiO<sub>x</sub> calibration | Figure 4b, tables 4, 8, 9 |
+| `memristive_portability_v10_additional_analyses.py` | Teacher-label data budget, source-accuracy analysis, robustness over all draws, decision rule, separate TiO<sub>x</sub> calibration | Figure 4b, tables 4, 8, 9 and 10 |
 | `collect_results_bundle.py` | Collects tables, configurations and logs of all runs into one zip | |
 
 The prespecified protocol of the main evaluation is in

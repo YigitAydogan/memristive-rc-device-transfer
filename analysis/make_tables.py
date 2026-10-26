@@ -50,7 +50,7 @@ for fm in fams:
     w = (ab[f"oracle_{fm}_ba"] > ab.raw_binned_ridge_ba).sum()
     out.append((fm, float(np.median(v)), int(w), float(cap.loc[fm, "C_total"])))
 best = ab[[f"oracle_{fm}_ba" for fm in fams]].max(1)
-base = [("Raw input, same features", nba(ab.raw_binned_ridge_ba, ab.classes)), ("1-nearest neighbour", nba(ab.nn1_euclidean_ba, ab.classes)),
+base = [("Raw input, same features", nba(ab.raw_binned_ridge_ba, ab.classes)), ("One-nearest neighbour", nba(ab.nn1_euclidean_ba, ab.classes)),
         ("MiniRocket", nba(ab.minirocket_ba, ab.classes)), ("Best device per dataset", nba(best, ab.classes))]
 L2 = [f"{fm} & {f(m)} & {w} of 18 & {f(c,1)} \\\\" for fm, m, w, c in out]
 L2.append(r"\midrule")
